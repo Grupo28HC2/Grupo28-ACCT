@@ -4,93 +4,457 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-inicio",
+      "menu-item#category-acct",
+      "menu-item#category-oquefazemos",
+      "menu-item#category-blog",
+      "menu-item#category-parceiros",
+      "menu-item#category-contato"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-inicio": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-inicio",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/home---inicio/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "INICIO",
+        "text": "INICIO"
       }
+    }
+  },
+  "menu-item#category-acct": {
+    "props": {
+      "id": "menu-item-category-acct",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---acct",
+        "noFollow": false,
+        "tagTitle": "ACCT",
+        "text": "ACCT"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "danger",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true,
+      "iconPosition":"right"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-acct"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-acct": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-acct"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-acct": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-acct-sobre",
+      "menu-item#category-acct-imprensa",
+      "menu-item#category-acct-carreiras"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-acct-sobre": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-acct-sobre",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/acct---accessories/sobre/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Sobre",
+        "text": "SOBRE NÓS"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-acct-imprensa": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-acct-imprensa",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/acct---accessories/imprensa/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Imprensa",
+        "text": "IMPRENSA E MÍDIA"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-acct-carreiras": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-acct-carreiras",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/acct---accessories/carreiras/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Carreiras",
+        "text": "CARREIRAS"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-oquefazemos": {
+    "props": {
+      "id": "menu-item-category-oquefazemos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/",
+        "noFollow": false,
+        "tagTitle": "O QUE FAZEMOS",
+        "text": "O QUE FAZEMOS"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "danger",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true,
+      "iconPosition":"right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-oquefazemos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-oquefazemos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-oquefazemos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-oquefazemos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-oquefazemos-servicos",
+      "menu-item#category-oquefazemos-categorias",
+      "menu-item#category-oquefazemos-cases"
+    ]
+  },
+  "menu-item#category-oquefazemos-servicos": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-servicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/servicos/",
+        "noFollow": false,
+        "tagTitle": "servicos",
+        "text": "SERVIÇOS"
+      },
+      "iconProps": {
+        "id": "nav-caret--down", 
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "danger",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true,
+      "iconPosition":"right"
+
+      
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-oquefazemos-servicos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-oquefazemos-servicos": {
+    "props": {
+      "width": "auto",
+      "blockClass":"batatinhafrita"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-oquefazemos-servicos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-oquefazemos-servicos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-oquefazemos-servicos-quality",
+      "menu-item#category-oquefazemos-servicos-data",
+      "menu-item#category-oquefazemos-servicos-experience",
+      "menu-item#category-oquefazemos-servicos-tecnologia"
+    ]
+  },
+
+  "menu-item#category-oquefazemos-servicos-quality": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-servicos-quality",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/servicos/quality",
+        "noFollow": false,
+        "tagTitle": "quality",
+        "text": "QUALITY ASSURANCE"
+      }
+    }
+  },
+  "menu-item#category-oquefazemos-servicos-data": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-servicos-data",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/servicos/data",
+        "noFollow": false,
+        "tagTitle": "data",
+        "text": "DATA E GROWTH"
+      }
+    }
+  },
+
+  "menu-item#category-oquefazemos-servicos-experience": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-servicos-experience",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/servicos/experience",
+        "noFollow": false,
+        "tagTitle": "experience",
+        "text": "EXPERIENCE DESIGN"
+      }
+    }
+  },
+
+  "menu-item#category-oquefazemos-servicos-tecnologia": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-servicos-tecnologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/servicos/tecnologia",
+        "noFollow": false,
+        "tagTitle": "tecnologia",
+        "text": "TECNOLOGIA"
+      }
+    }
+  },
+
+  "menu-item#category-oquefazemos-categorias": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-categorias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/categorias/",
+        "noFollow": false,
+        "tagTitle": "categorias",
+        "text": "CATEGORIAS INDUSTRIAIS"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "danger",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true,
+      "iconPosition":"right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-oquefazemos-categorias"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-oquefazemos-categorias": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-oquefazemos-categorias"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-oquefazemos-categorias": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-oquefazemos-categoria-eletrodomesticos",
+      "menu-item#category-oquefazemos-categoria-bensdeconsumo",
+      "menu-item#category-oquefazemos-categoria-eletronicos",
+      "menu-item#category-oquefazemos-categoria-casaejardim",
+      "menu-item#category-oquefazemos-categoria-supermercados",
+      "menu-item#category-oquefazemos-categoria-moda",
+      "menu-item#category-oquefazemos-categoria-farmacia"
+    ]
+  },
+
+  "menu-item#category-oquefazemos-categoria-eletrodomesticos": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-categoria-eletrodomesticos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/categoria/eletrodomesticos",
+        "noFollow": false,
+        "tagTitle": "eletrodomesticos",
+        "text": "ELETRODOMÉSTICOS"
+      }
+    }
+  },
+
+  "menu-item#category-oquefazemos-categoria-bensdeconsumo": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-categoria-bensdeconsumo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/categoria/bensdeconsumo",
+        "noFollow": false,
+        "tagTitle": "bensdeconsumo",
+        "text": "BENS DE CONSUMO"
+      }
+    }
+  },
+
+  "menu-item#category-oquefazemos-categoria-eletronicos": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-categoria-eletronicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/categoria/eletronicos",
+        "noFollow": false,
+        "tagTitle": "eletronicos",
+        "text": "ELETRÔNICOS"
+      }
+    }
+  },
+
+  "menu-item#category-oquefazemos-categoria-casaejardim": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-categoria-casaejardim",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/categoria/casaejardim",
+        "noFollow": false,
+        "tagTitle": "casaejardim",
+        "text": "CASA E JARDIM"
+      }
+    }
+  },
+
+  "menu-item#category-oquefazemos-categoria-supermercados": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-categoria-supermercados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/categoria/supermercados",
+        "noFollow": false,
+        "tagTitle": "supermercados",
+        "text": "SUPERMERCADOS"
+      }
+    }
+  },
+
+  "menu-item#category-oquefazemos-categoria-moda": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-categoria-moda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/categoria/moda",
+        "noFollow": false,
+        "tagTitle": "moda",
+        "text": "MODA"
+      }
+    }
+  },
+
+  "menu-item#category-oquefazemos-categoria-farmacia": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-categoria-farmacia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/categoria/farmacia",
+        "noFollow": false,
+        "tagTitle": "farmacia",
+        "text": "FARMÁCIA"
+      }
+    }
+  },
+
+
+  "menu-item#category-oquefazemos-cases": {
+    "props": {
+      "id": "menu-item-category-oquefazemos-cases",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos---accessories/cases/",
+        "noFollow": false,
+        "tagTitle": "cases",
+        "text": "CASES"
+      }
+    }
+  },
+  
+  "menu-item#category-blog": {
     "props": {
       "id": "menu-item-category-home",
       "type": "custom",
@@ -101,7 +465,37 @@
         "href": "/home---decor/",
         "noFollow": false,
         "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "text": "BLOG"
+      }
+    }
+  },
+  "menu-item#category-parceiros": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "PARCEIROS"
+      }
+    }
+  },
+  "menu-item#category-contato": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "CONTATO"
       }
     }
   },
