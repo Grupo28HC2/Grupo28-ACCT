@@ -100,8 +100,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
-      "width": "180",
-      "blockclass":"menuPrincipal"
+      "width": "180"
     }
   },
   "header-layout.mobile": {

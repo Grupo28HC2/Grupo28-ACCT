@@ -1,0 +1,60 @@
+{
+    "store.custom#servicos":{
+
+     "blocks": [
+        "flex-layout.row#servicos", 
+        "flex-layout.row#texto",
+        "flex-layout.row#shelf"
+        ]
+    },
+  
+    "flex-layout.row#servicos": {
+      "children": [
+        "rich-text#servicos"
+      ], 
+      "props": {
+        "blockClass": "servicos-header"
+      }
+    },
+    "rich-text#servicos": {
+        "props": {
+          "text": "## SERVIÇOS",
+          "blockClass": "servicos-header"
+
+        }
+      },
+    "flex-layout.row#texto": {
+      "children": [
+        "rich-text#texto"
+      ] 
+    
+          },
+    "rich-text#texto": {
+        "props": {
+          "text": "Na ACCT vivemos e respiramos o desenvolvimento de software. Mais de 60% de nossos funcionários são engenheiros de software. Como uma empresa enraizada nas melhores práticas de desenvolvimento, nossa responsabilidade como engenheiros e criadores se expressa através do desenvolvimento de soluções digitais. \n\n Na ACCT desenvolvemos soluções de software excepcionais para algumas das maiores marcas do mundo, especializadas em comércio digital. O serviço de integração de sistemas é um aspecto central dos nossos atributos. Na ACCT, temos um longo histórico de projetos de soluções integradas confiáveis e escaláveis.",
+         "blockClass": "servicos-paragrafo" 
+        }
+      },
+      "flex-layout.row#shelf": {
+        "children": ["list-context.product-list#demo1"]
+      },
+      "list-context.product-list#demo1": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-products"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+      "slider-layout#demo-products": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf"
+        }
+      }
+}
