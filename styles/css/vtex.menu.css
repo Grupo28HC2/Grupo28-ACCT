@@ -1,15 +1,33 @@
 .styledLinkContent{
-    font-size: 11px
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    color: #000;
+    //font-weight: bold;
+    margin-left: -0.6rem;
+    margin-right: -0.4rem;
+    
 }
+
+.styledLinkContent :hover{
+    color: "#FFFF00";
+}
+
+
 
 .styledLinkIcon{
-    
+    color: #000;
 }
 
-.menuItem--isOpen{
-    
+.menuItem{
+    color:blue;
 }
 
 .subMenuWrapper{
-    
+    justify-content: flex-start;
 }
+
+.itemContainer--category :hover{
+
+}
+

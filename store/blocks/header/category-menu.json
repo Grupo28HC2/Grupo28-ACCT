@@ -2,7 +2,7 @@
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
       "experimentalOptimizeRendering": true,
-      "blockClass": "menu"
+      "blockClass": "menuPrincipal"
     },
     "children": [
       "menu-item#category-inicio",
@@ -57,7 +57,7 @@
   },
   "vtex.menu@2.x:submenu#category-acct": {
     "props": {
-      "width": "auto"
+      "width": "300px"
     },
     "children": [
       "vtex.menu@2.x:menu#category-acct"
@@ -147,7 +147,7 @@
   },
   "vtex.menu@2.x:submenu#category-oquefazemos": {
     "props": {
-      "width": "auto"
+      "width": "300px"
     },
     "children": [
       "vtex.menu@2.x:menu#category-oquefazemos"
@@ -169,6 +169,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "menuDisposition":"right",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/servicos/",
@@ -194,8 +195,9 @@
   },
   "vtex.menu@2.x:submenu#category-oquefazemos-servicos": {
     "props": {
-      "width": "auto",
-      "blockClass":"batatinhafrita"
+      "width": "300px",
+      "blockClass":"batatinhafrita",
+      "menuDisposition":"right"
     },
     "children": [
       "vtex.menu@2.x:menu#category-oquefazemos-servicos"
@@ -305,7 +307,8 @@
   },
   "vtex.menu@2.x:submenu#category-oquefazemos-categorias": {
     "props": {
-      "width": "auto"
+      "width": "300px",
+      "menuDisposition": "right"
     },
     "children": [
       "vtex.menu@2.x:menu#category-oquefazemos-categorias"
