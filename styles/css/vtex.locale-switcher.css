@@ -3,5 +3,14 @@
 }
 
 .container {
-    width: 1rem;
+    width: 0.6rem;
+}
+
+.buttonText{
+    font-size: 11px;
+}
+
+.buttonText :hover{
+    color:#Fcc91f;
+
 }
