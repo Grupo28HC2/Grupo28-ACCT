@@ -1,9 +1,5 @@
-.notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
-  font-weight: 700;
-  font-size: 12px;
-  text-decoration: underline;
+.imageElementLink{
+    text-align: center;
 }
 
 .infoCardContainer--info-card-home {
@@ -112,12 +108,44 @@
   font-size: 30px;
 }
 
-.logoImage{
+.logoImage {
   display: inline-block;
-    vertical-align: middle;
-    border: 0;
-    max-width: 115px;
-    padding-top: 0;
-    margin-left: 16px;
-    
+  vertical-align: middle;
+  border: 0;
+  max-width: 115px;
+  padding-top: 0;
+  margin-left: 16px;
+}
+
+.infoCardContainer--timedAcct {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 100%;
+  border: #dedede 3px solid;
+  margin: 0 auto;
+
+}
+
+.infoCardSubhead{
+  position: absolute;
+	top: 0px;
+	z-index: -1;
+}
+
+.infoCardCallActionContainer--timedAcct{
+  display:none;
+}
+
+.imageElement--somoAcct {
+max-width:538px;
+max-height:368px;
+width: auto;
+height: auto;
+}
+@media screen and (max-width: 768px){
+    .imageElement--m-image-footer{
+        margin-bottom: 64px
+    }
 }

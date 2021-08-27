@@ -87,4 +87,69 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .strong--yellowAcct{
+    color: #fcc200;
+  }
+
+  .strong--aboutUsAcct{
+    color: #0a0909;
+  }
+
+  .heading-level-1{
+    color: #0a0909;
+  }
+
+  .wrapper--aboutUsAcct{
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 120px;
+
+  }
+
+}
+
+.container--servicos-header {
+  background: url("https://acct.global/wp-content/uploads/2020/10/cover-services.jpg");
+  padding: 60px 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.heading--servicos-header {
+
+  color: #ffffff;
+  padding-left: 100px;
+  font-family: "Open Sans Condensed";
+  font-weight: 500;
+}
+
+.wrapper--servicos-paragrafo {
+  padding: 0 190px;
+}
+
+.heading--h2-footer{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    letter-spacing: 1px;
+    margin: 0 0 1em 0;
+}
+
+.paragraph--p-footer{
+    color: #222;
+    font-size: 0.85rem;
+    margin: 1.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container--h2-footer, .container--p-footer{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .container--p-footer{
+        margin-bottom: 32px;
+    }
+
 }
