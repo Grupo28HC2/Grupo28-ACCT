@@ -9,3 +9,7 @@
 .buttonText{
     font-size: 11px;
 }
+
+.buttonText :hover{
+    color:#Fcc91f;
+}

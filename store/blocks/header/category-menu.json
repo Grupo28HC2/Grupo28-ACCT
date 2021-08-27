@@ -46,7 +46,16 @@
         "size": 10,
         "viewBox": "0 0 16 16",
         "activeClassName": "base",
-        "mutedClassName": "c-action-primary"
+        "mutedClassName": "c-action-primary",
+        "blockClass":"icon1"
+      },
+      "iconProps#1": {
+        "id": "sti-close--line",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "base",
+        "mutedClassName": "c-action-primary",
+        "blockClass":"icon2"
       },
       "iconToTheRight": true,
       "iconPosition":"right"
