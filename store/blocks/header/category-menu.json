@@ -310,7 +310,9 @@
   },
   "vtex.menu@2.x:submenu#category-oquefazemos-categorias": {
     "props": {
+      "margin-top": "300px",
       "width": "300px",
+      "blockClass":"cocacola",
       "menuDisposition": "right"
     },
     "children": [

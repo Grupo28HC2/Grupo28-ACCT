@@ -21,11 +21,11 @@
     color:blue;
 }
 
-.subMenuWrapper-batatinhafrita{
-    margin-left: 300px;
+.submenuWrapper--batatinhafrita{
+    margin-left: 200px;
 }
 
-.itemContainer--category :hover{
-
+.submenuWrapper--cocacola{
+    margin-left: 200px;
 }
 
