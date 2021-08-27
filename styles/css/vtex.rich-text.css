@@ -87,4 +87,24 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .strong--yellowAcct{
+    color: #fcc200;
+  }
+  
+  .strong--aboutUsAcct{
+    color: #0a0909;
+  }
+  
+  .heading-level-1{
+    color: #0a0909;
+  }
+
+  .wrapper--aboutUsAcct{
+    text-align: justify;    
+    margin-top: 10px;
+    margin-left: 120px;
+    
+  }
+
 }
