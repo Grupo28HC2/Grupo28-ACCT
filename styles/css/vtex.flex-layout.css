@@ -3,11 +3,14 @@
   padding: 0 0.5rem;
 }
 
+.flex-layout.row--servicos--header :global(.vtex-store-components-3-x-container){
+  padding: 0;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
-    height: 90.4375px;
   }
 }
 @media screen and (min-width: 80rem) {
@@ -92,13 +95,4 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
-}
-.flexCol--menuPrincipal{
-  margin-left: 0.6rem;
-  margin-right: 1rem;
-}
-
-.flexRowContent--main-header{
-  background: #ffffff;
-
 }
