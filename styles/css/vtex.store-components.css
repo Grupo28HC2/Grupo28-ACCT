@@ -1,9 +1,5 @@
-.notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
-  font-weight: 700;
-  font-size: 12px;
-  text-decoration: underline;
+.imageElementLink{
+    text-align: center;
 }
 
 .infoCardContainer--info-card-home {
@@ -128,8 +124,8 @@
   margin: 15px;
   border-radius: 100%;
   border: #dedede 3px solid;
-  margin: 0 auto; 
- 
+  margin: 0 auto;
+
 }
 
 .infoCardSubhead{
@@ -147,4 +143,9 @@ max-width:538px;
 max-height:368px;
 width: auto;
 height: auto;
+}
+@media screen and (max-width: 768px){
+    .imageElement--m-image-footer{
+        margin-bottom: 64px
+    }
 }

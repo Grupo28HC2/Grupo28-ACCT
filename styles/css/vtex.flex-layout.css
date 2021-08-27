@@ -96,3 +96,27 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+.flexRow--menu-row{
+  background-color: #F8F8F8;
+}
+
+.flexRow--footer-row{
+  max-width: 1200px;
+}
+
+.flexCol--footer_logo_col{
+  max-width: 145px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .flexRowContent--social-mobile{
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .flexCol--footer_logo_col{
+    margin-bottom: 64px;
+  }
+}
+
