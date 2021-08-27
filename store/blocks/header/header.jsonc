@@ -78,9 +78,9 @@
       //"search-bar",
       "locale-switcher#pt",
       "locale-switcher#en",
-      "locale-switcher#es"
+      "locale-switcher#es",
       //"login",
-      //"minicart.v2"
+      "minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -169,6 +169,13 @@
     "listElement":"ES",
     "localeIdText":"ES",
     "relativeContainer":"ES"
+    }
+  },
+  "minicart.v2":{
+    "props":{
+      "customPixelEventId":"add-cart",
+      "customPixelEventName": "cart-added"
+
     }
   }
 }

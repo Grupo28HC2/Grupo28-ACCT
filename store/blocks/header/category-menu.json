@@ -45,7 +45,7 @@
         "id": "nav-caret--down",
         "size": 10,
         "viewBox": "0 0 16 16",
-        "activeClassName": "danger",
+        "activeClassName": "base",
         "mutedClassName": "c-action-primary"
       },
       "iconToTheRight": true,
@@ -135,7 +135,7 @@
         "id": "nav-caret--down",
         "size": 10,
         "viewBox": "0 0 16 16",
-        "activeClassName": "danger",
+        "activeClassName": "base",
         "mutedClassName": "c-action-primary"
       },
       "iconToTheRight": true,
@@ -169,7 +169,6 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "menuDisposition":"right",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/servicos/",
@@ -181,11 +180,13 @@
         "id": "nav-caret--down", 
         "size": 10,
         "viewBox": "0 0 16 16",
-        "activeClassName": "danger",
-        "mutedClassName": "c-action-primary"
+        "activeClassName": "base",
+        "mutedClassName": "warning"
+
       },
       "iconToTheRight": true,
-      "iconPosition":"right"
+      "iconPosition":"right",
+      "menuLinkDivLeft":"true"
 
       
     },
@@ -197,7 +198,8 @@
     "props": {
       "width": "300px",
       "blockClass":"batatinhafrita",
-      "menuDisposition":"right"
+      "renderLink":"right"
+
     },
     "children": [
       "vtex.menu@2.x:menu#category-oquefazemos-servicos"
@@ -205,7 +207,8 @@
   },
   "vtex.menu@2.x:menu#category-oquefazemos-servicos": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "menuDisposition":"left"
     },
     "children": [
       "menu-item#category-oquefazemos-servicos-quality",
@@ -295,7 +298,7 @@
         "id": "nav-caret--down",
         "size": 10,
         "viewBox": "0 0 16 16",
-        "activeClassName": "danger",
+        "activeClassName": "base",
         "mutedClassName": "c-action-primary"
       },
       "iconToTheRight": true,
