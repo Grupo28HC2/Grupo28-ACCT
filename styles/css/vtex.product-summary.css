@@ -11,6 +11,16 @@
   opacity: 1;
 }
 
+.element{
+  background: #f2f2f2;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.imageNormal{
+  background: #f2f2f2;
+}
+
 @media screen and (max-width: 40em) {
   .container :global(.vtex-modal-layout-0-x-triggerContainer) {
     display: none;
