@@ -1,0 +1,174 @@
+{
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer-mobile"]
+  },
+  "flex-layout.row#footer-mobile": {
+    "children": ["flex-layout.row#footer-wrapper"],
+    "props": {
+      "blockClass": "menu-row"
+    }
+  },
+  "flex-layout.col#footer-wrapper": {
+    "children": [
+      "image#gptw",
+      "flex-layout.col#logo-mobile",
+      "flex-layout.col#brasil",
+      "flex-layout.col#espanha",
+      "flex-layout.col#usa"
+    ],
+    "props": {
+      "blockClass": "footer-row",
+      "paddingTop": 9,
+      "paddingBottom": 9,
+      "colSizing": "auto"  
+    }
+  },
+
+  "image#gptw": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2021/07/selo-gptw-2021.svg",
+      "maxWidth": "150px"
+    }
+  },
+
+
+  
+  "flex-layout.col#logo-mobile": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "footer_logo_col"
+    },
+    "children": [
+      "image#logo",
+      "flex-layout.row#social-networks-mobile",
+      "link#contact"
+    ]
+  },
+
+  "image#logo": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
+      "maxWidth": "140px"
+    }
+  },
+
+  "flex-layout.row#social-networks-mobile": {
+    "children": ["image#linkedin", "image#youtube", "image#instagram"]
+  },
+
+  "image#linkedin": {
+    "props": {
+      "src": "https://image.flaticon.com/icons/png/32/1384/1384014.png",
+      "link": {
+        "url": "https://www.linkedin.com/company/acctglobal/",
+        "newTab": true
+      }
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "src": "https://image.flaticon.com/icons/png/32/1384/1384012.png",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCv-y0Z8ZIu6kP-MpebdIVZA",
+        "newTab": true
+      }
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "src": "https://image.flaticon.com/icons/png/32/1384/1384015.png",
+      "link": {
+        "url": "https://www.instagram.com/acct.global/",
+        "newTab": true
+      }
+    }
+  },
+
+  "link#contact": {
+    "props": {
+      "label": "contato@acct.global",
+      "href": "mailto:contato@acct.global",
+      "blockClass": "contact_footer"
+    }
+  },
+
+
+
+
+  /*********COL-BRASIL**********/
+  "flex-layout.col#brasil": {
+    "children": ["rich-text#brasil", "rich-text#address-brasil"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+
+  "rich-text#brasil": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## BRASIL",
+      "blockClass": "h2-footer"  
+    }
+  },
+  "rich-text#address-brasil": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "p-footer",
+      "text": "Al. Prof. Lucas Nogueira Garcez, <br> 1395 - Atibaia - SP <br><br> Av. das Nações Unidas, 11.857 <br> 8º Andar - Brooklin - São Paulo - SP"
+    }
+  },
+
+  /*********COL-ESPANHA**********/
+  "flex-layout.col#espanha": {
+    "children": ["rich-text#espanha", "rich-text#address-espanha"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+
+  "rich-text#espanha": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## ESPANHA",
+      "blockClass": "h2-footer"
+    }
+  },
+  "rich-text#address-espanha": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "p-footer",
+      "text": "Carrer Provença, 339 <br> 08037 - Barcelona"
+    }
+  },
+
+  /*********COL-USA**********/
+  "flex-layout.col#usa": {
+    "children": ["rich-text#usa", "rich-text#address-usa"],
+    "props": {
+      "verticalAlign": "top"
+    }
+  },
+
+  "rich-text#usa": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## ESTADOS UNIDOS",
+      "blockClass": "h2-footer"
+    }
+  },
+  "rich-text#address-usa": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "p-footer",
+      "text": "12 East 49th Street NY<br>10017 - New York"
+    }
+  }
+
+}
