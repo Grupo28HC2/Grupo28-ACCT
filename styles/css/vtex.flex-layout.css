@@ -110,6 +110,18 @@
   gap: 20px;
 }
 
+.flexRow--porqueacct {  
+  padding: 14px 0px;
+}
+
+.flexRow--porqueacct .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--porqueacct .flexCol {
+  align-items: center;
+}
+
 @media screen and (max-width: 768px) {
   .flexRowContent--social-mobile{
     align-items: center;

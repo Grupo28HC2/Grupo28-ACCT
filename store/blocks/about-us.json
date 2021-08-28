@@ -4,8 +4,7 @@
       "rich-text#maintitle-about-us",
       "flex-layout.row#about-us",
       "rich-text#porque-acct",
-      "flex-layout.row#img-porque-acct",
-      "flex-layout.row#txt-porque-acct",
+      "flex-layout.row#porqueacct",
       "rich-text#trusted-acct",
       "flex-layout.row#trusted-acct1",
       "flex-layout.row#trusted-acct2",
@@ -30,7 +29,7 @@
     ]
   },
   "flex-layout.col#text-about-us": {
-    "children": [      
+    "children": [
       "rich-text#about-us"
     ],
     "props": {
@@ -38,7 +37,6 @@
       "preventVerticalStretch": true
     }
   },
-  
   "image#somos-about-us": {
     "props": {
       "src": "https://acct.global/wp-content/uploads/2020/10/img-about-us-1536x1053.jpg",
@@ -64,16 +62,25 @@
       "blockClass": "yellowAcct"
     }
   },
-  "flex-layout.row#img-porque-acct": {
+  "flex-layout.row#porqueacct": {
     "children": [
-      "image#porque-acct1",
-      "image#porque-acct2",
-      "image#porque-acct3",
-      "image#porque-acct4",
-      "image#porque-acct5"
+      "flex-layout.col#porqueacct1",
+      "flex-layout.col#porqueacct2",
+      "flex-layout.col#porqueacct3",
+      "flex-layout.col#porqueacct4",
+      "flex-layout.col#porqueacct5"
+    ],
+    "props": {
+      "blockClass": "porqueacct"
+    }
+  },
+  "flex-layout.col#porqueacct1": {
+    "children": [
+      "image#porque1",
+      "rich-text#porque1"
     ]
   },
-  "image#porque-acct1": {
+  "image#porque1": {
     "props": {
       "src": "assets/icon1.png",
       "maxHeight": 100,
@@ -81,7 +88,21 @@
       "blockClass": "porqueAcct"
     }
   },
-  "image#porque-acct2": {
+  "rich-text#porque1": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Engenharia de Dados de Alta Complexidade",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#porqueacct2": {
+    "children": [
+      "image#porque2",
+      "rich-text#porque2"
+    ]
+  },
+  "image#porque2": {
     "props": {
       "src": "assets/icon2.png",
       "maxHeight": 100,
@@ -89,7 +110,21 @@
       "blockClass": "porqueAcct"
     }
   },
-  "image#porque-acct3": {
+  "rich-text#porque2": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Habilidades Técnicas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#porqueacct3": {
+    "children": [
+      "image#porque3",
+      "rich-text#porque3"
+    ]
+  },
+  "image#porque3": {
     "props": {
       "src": "assets/icon3.png",
       "maxHeight": 100,
@@ -97,7 +132,21 @@
       "blockClass": "porqueAcct"
     }
   },
-  "image#porque-acct4": {
+  "rich-text#porque3": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Líder de Mercado em Implementações VTEX IO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#porqueacct4": {
+    "children": [
+      "image#porque4",
+      "rich-text#porque4"
+    ]
+  },
+  "image#porque4": {
     "props": {
       "src": "assets/icon4.png",
       "maxHeight": 100,
@@ -105,7 +154,21 @@
       "blockClass": "porqueAcct"
     }
   },
-  "image#porque-acct5": {
+  "rich-text#porque4": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Excelente Suporte ao Cliente",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#porqueacct5": {
+    "children": [
+      "image#porque5",
+      "rich-text#porque5"
+    ]
+  },
+  "image#porque5": {
     "props": {
       "src": "assets/icon5.png",
       "maxHeight": 100,
@@ -113,65 +176,13 @@
       "blockClass": "porqueAcct"
     }
   },
-
-  "flex-layout.row#txt-porque-acct": {
-    "children": [
-      "rich-text#porque1",
-      "rich-text#porque2",
-      "rich-text#porque3",
-      "rich-text#porque4",
-      "rich-text#porque5"
- 
-    ]
-  },
-  
-  "rich-text#porque1": {
-    "props": {
-      "textColor": "c-muted-1",
-      "text": "Engenharia de Dados de Alta Complexidade",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "porquetxtAcct"
-    }  
-  },
-  "rich-text#porque2": {
-    "props": {
-      "textColor": "c-muted-1",
-      "text": "Habilidades Técnicas",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "porquetxtAcct"
-    }
-  
-  },
-  "rich-text#porque3": {
-    "props": {
-      "textColor": "c-muted-1",
-      "text": "Líder de Mercado em Implementações VTEX IO",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "porquetxtAcct"
-    }
-  
-  },
-  "rich-text#porque4": {
-    "props": {
-      "textColor": "c-muted-1",
-      "text": "Excelente Suporte ao Cliente",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "porquetxtAcct"
-    }
-  
-  },
   "rich-text#porque5": {
     "props": {
       "textColor": "c-muted-1",
       "text": "Segurança e Confiabilidade",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "porquetxtAcct"
-    }  
+      "textPosition": "CENTER"
+    }
   },
   "rich-text#trusted-acct": {
     "props": {
@@ -320,7 +331,9 @@
       "info-card#time18",
       "info-card#time19"
     ],
-    "props": {"blockClass": "sliderTimeAcct"}
+    "props": {
+      "blockClass": "sliderTimeAcct"
+    }
   },
   "info-card#time1": {
     "props": {

@@ -150,6 +150,32 @@
   display:none;
 }
 
+.imageElement--porqueAcct:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: .6s;
+}
+
+.imageElement--trustedAcct {
+	display: block;
+	max-width: 300px;
+	margin: 20px auto 40px auto;
+	transition: .6s;
+	
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
+}
+
+.imageElement--trustedAcct:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+	-webkit-filter: none;	
+	filter: none;	
+}
+
 .imageElement--somoAcct {
 max-width:538px;
 max-height:368px;
