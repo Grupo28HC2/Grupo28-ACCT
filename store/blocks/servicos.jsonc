@@ -1,18 +1,12 @@
 {
   "store.custom#servicos": {
     "blocks": [
-      "flex-layout.row#servicos",
+      "rich-text#servicos",
       "flex-layout.row#texto",
       "flex-layout.row#produtos"
     ]
   },
-
-  "flex-layout.row#servicos": {
-    "children": ["rich-text#servicos"],
-    "props": {
-      "blockClass": "servicos-header"
-    }
-  },
+ 
   "rich-text#servicos": {
     "props": {
       "text": "## SERVIÇOS**_**",
