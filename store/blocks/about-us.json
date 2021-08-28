@@ -1,6 +1,7 @@
 {
   "store.custom#about-us": {
     "blocks": [
+      "rich-text#aboutUs",
       "rich-text#maintitle-about-us",
       "flex-layout.row#about-us",
       "rich-text#porque-acct",
@@ -13,6 +14,14 @@
       "slider-layout#time-about-us"
     ]
   },
+
+  "rich-text#aboutUs": {
+    "props": {
+      "text": "## SOBRE NÓS**_**",
+      "blockClass": "aboutUs-header"
+    }
+  },
+  
   "rich-text#maintitle-about-us": {
     "props": {
       "text": "Projetando o **futuro do comércio digital**",

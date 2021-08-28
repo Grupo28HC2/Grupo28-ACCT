@@ -118,11 +118,43 @@
   }
 }
 
-.container--servicos-header {
-  background: url("https://acct.global/wp-content/uploads/2020/10/cover-services.jpg");
-  padding: 60px 0;
+.container--aboutUs-header {
+  background: url("https://acct.global/wp-content/uploads/2020/10/cover-about-us.jpg");
+  padding: 65px 0;
   background-size: cover;
   background-position: center center;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.heading--aboutUs-header {
+
+  color: #ffffff;
+  padding-left: 100px;
+  font-family: "Open Sans Condensed";
+  font-weight: 500;
+}
+
+.wrapper--aboutUs-paragrafo {
+  padding: 0 190px;
+  margin: 30px;
+}
+
+.strong--aboutUs-header{
+  color: #fcc200;
+    display: inline-block;
+    margin: 0 5px;
+    animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+ }
+
+.container--servicos-header {
+  background: url("https://acct.global/wp-content/uploads/2020/10/cover-services.jpg");
+  padding: 65px 0;
+  background-size: cover;
+  background-position: center center;
+  border-left: 0px;
+  border-right: 0px;
 }
 
 .heading--servicos-header {
@@ -134,6 +166,15 @@
 
 .wrapper--servicos-paragrafo {
   padding: 0 190px;
+  margin: 30px;
+}
+
+.strong--servicos-header{
+  color: #fcc200;
+  display: inline-block;
+  margin: 0 5px;
+  font-weight: bold;
+  animation: blink 1s ease infinite;
 }
 
 .heading--h2-footer {
