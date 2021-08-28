@@ -1,0 +1,561 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "rich-text#aboutUs",
+      "rich-text#maintitle-about-us",
+      "flex-layout.row#about-us",
+      "rich-text#porque-acct",
+      "flex-layout.row#porqueacct",
+      "rich-text#trusted-acct",
+      "flex-layout.row#trusted-acct1",
+      "flex-layout.row#trusted-acct2",
+      "rich-text#time-acct",
+      "rich-text#timequip-acct",
+      "slider-layout#time-about-us"
+    ]
+  },
+
+  "rich-text#aboutUs": {
+    "props": {
+      "text": "## SOBRE NÓS**_**",
+      "blockClass": "aboutUs-header"
+    }
+  },
+  
+  "rich-text#maintitle-about-us": {
+    "props": {
+      "text": "Projetando o **futuro do comércio digital**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "yellowAcct"
+    }
+  },
+  "flex-layout.row#about-us": {
+    "children": [
+      "flex-layout.col#text-about-us",
+      "image#somos-about-us"
+    ]
+  },
+  "flex-layout.col#text-about-us": {
+    "children": [
+      "rich-text#about-us"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#somos-about-us": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2020/10/img-about-us-1536x1053.jpg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "somoAcct"
+    }
+  },
+  "rich-text#about-us": {
+    "props": {
+      "text": "Somos uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia. \n\n A **ACCT** passou por um rápido crescimento nos últimos 5 anos e hoje tem mais de 200 funcionários, em 3 países diferentes. \n\n Nós também temos o orgulho de dizer que a **ACCT** esteve envolvida em algumas das maiores implementações e projetos de e-commerce do mundo. \n\n  Clientes globais como Unilever, Ab-Inbev, Carrefour e Whirpool nos escolheram para desenvolver seus produtos digitais porque confiam em nossa capacidade de fornecer soluções com a mais alta qualidade de design, engenharia e desenvolvimento.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "aboutUsAcct"
+    }
+  },
+  "rich-text#porque-acct": {
+    "props": {
+      "text": "Por que a ACCT?**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "yellowAcct"
+    }
+  },
+  "flex-layout.row#porqueacct": {
+    "children": [
+      "flex-layout.col#porqueacct1",
+      "flex-layout.col#porqueacct2",
+      "flex-layout.col#porqueacct3",
+      "flex-layout.col#porqueacct4",
+      "flex-layout.col#porqueacct5"
+    ],
+    "props": {
+      "blockClass": "porqueacct"
+    }
+  },
+  "flex-layout.col#porqueacct1": {
+    "children": [
+      "image#porque1",
+      "rich-text#porque1"
+    ]
+  },
+  "image#porque1": {
+    "props": {
+      "src": "assets/icon1.png",
+      "maxHeight": 100,
+      "maxWidth": 100,
+      "blockClass": "porqueAcct"
+    }
+  },
+  "rich-text#porque1": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Engenharia de Dados de Alta Complexidade",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#porqueacct2": {
+    "children": [
+      "image#porque2",
+      "rich-text#porque2"
+    ]
+  },
+  "image#porque2": {
+    "props": {
+      "src": "assets/icon2.png",
+      "maxHeight": 100,
+      "maxWidth": 100,
+      "blockClass": "porqueAcct"
+    }
+  },
+  "rich-text#porque2": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Habilidades Técnicas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#porqueacct3": {
+    "children": [
+      "image#porque3",
+      "rich-text#porque3"
+    ]
+  },
+  "image#porque3": {
+    "props": {
+      "src": "assets/icon3.png",
+      "maxHeight": 100,
+      "maxWidth": 100,
+      "blockClass": "porqueAcct"
+    }
+  },
+  "rich-text#porque3": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Líder de Mercado em Implementações VTEX IO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#porqueacct4": {
+    "children": [
+      "image#porque4",
+      "rich-text#porque4"
+    ]
+  },
+  "image#porque4": {
+    "props": {
+      "src": "assets/icon4.png",
+      "maxHeight": 100,
+      "maxWidth": 100,
+      "blockClass": "porqueAcct"
+    }
+  },
+  "rich-text#porque4": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Excelente Suporte ao Cliente",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#porqueacct5": {
+    "children": [
+      "image#porque5",
+      "rich-text#porque5"
+    ]
+  },
+  "image#porque5": {
+    "props": {
+      "src": "assets/icon5.png",
+      "maxHeight": 100,
+      "maxWidth": 100,
+      "blockClass": "porqueAcct"
+    }
+  },
+  "rich-text#porque5": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Segurança e Confiabilidade",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#trusted-acct": {
+    "props": {
+      "text": "Trusted by?**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "trustedAcct"
+    }
+  },
+  "flex-layout.row#trusted-acct1": {
+    "children": [
+      "image#trusted-acct1",
+      "image#trusted-acct2",
+      "image#trusted-acct3",
+      "image#trusted-acct4",
+      "image#trusted-acct5"
+    ]
+  },
+  "image#trusted-acct1": {
+    "props": {
+      "src": "assets/clients_carrefour.png",
+      "maxHeight": 150,
+      "maxWidth": 150,
+      "blockClass": "trustedAcct"
+    }
+  },
+  "image#trusted-acct2": {
+    "props": {
+      "src": "assets/clients_samsung.png",
+      "maxHeight": 150,
+      "maxWidth": 150,
+      "blockClass": "trustedAcct"
+    }
+  },
+  "image#trusted-acct3": {
+    "props": {
+      "src": "assets/clients_abinbev.png",
+      "maxHeight": 150,
+      "maxWidth": 150,
+      "blockClass": "trustedAcct"
+    }
+  },
+  "image#trusted-acct4": {
+    "props": {
+      "src": "assets/clients_stanley-black-decker.png",
+      "maxHeight": 150,
+      "maxWidth": 150,
+      "blockClass": "trustedAcct"
+    }
+  },
+  "image#trusted-acct5": {
+    "props": {
+      "src": "assets/clients_motorola.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "trustedAcct"
+    }
+  },
+  "flex-layout.row#trusted-acct2": {
+    "children": [
+      "image#trusted-acct6",
+      "image#trusted-acct7",
+      "image#trusted-acct8",
+      "image#trusted-acct9",
+      "image#trusted-acct10"
+    ]
+  },
+  "image#trusted-acct6": {
+    "props": {
+      "src": "assets/clients_unilever.png",
+      "maxHeight": 150,
+      "maxWidth": 150,
+      "blockClass": "trustedAcct"
+    }
+  },
+  "image#trusted-acct7": {
+    "props": {
+      "src": "assets/clients_whirlpool.png",
+      "maxHeight": 150,
+      "maxWidth": 150,
+      "blockClass": "trustedAcct"
+    }
+  },
+  "image#trusted-acct8": {
+    "props": {
+      "src": "assets/clients_universal-mg.png",
+      "maxHeight": 150,
+      "maxWidth": 150,
+      "blockClass": "trustedAcct"
+    }
+  },
+  "image#trusted-acct9": {
+    "props": {
+      "src": "assets/clients_decathlon.png",
+      "maxHeight": 150,
+      "maxWidth": 150,
+      "blockClass": "trustedAcct"
+    }
+  },
+  "image#trusted-acct10": {
+    "props": {
+      "src": "assets/clients_cea.png",
+      "maxHeight": 150,
+      "maxWidth": 150,
+      "blockClass": "trustedAcct"
+    }
+  },
+  "rich-text#time-acct": {
+    "props": {
+      "text": "Time**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "timedAcct"
+    }
+  },
+  "rich-text#timequip-acct": {
+    "props": {
+      "text": "**A ACCT tem uma equipe interna de alto desempenho** com recursos de 360 graus para fornecer soluções de tecnologia de alta complexidade.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5",
+      "blockClass": "timedescAcct"
+    }
+  },
+  "slider-layout#time-about-us": {
+    "children": [
+      "info-card#time1",
+      "info-card#time2",
+      "info-card#time3",
+      "info-card#time4",
+      "info-card#time5",
+      "info-card#time6",
+      "info-card#time7",
+      "info-card#time8",
+      "info-card#time9",
+      "info-card#time10",
+      "info-card#time11",
+      "info-card#time12",
+      "info-card#time13",
+      "info-card#time14",
+      "info-card#time15",
+      "info-card#time16",
+      "info-card#time17",
+      "info-card#time18",
+      "info-card#time19"
+    ],
+    "props": {
+      "blockClass": "sliderTimeAcct"
+    }
+  },
+  "info-card#time1": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/frederico-heitmann-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "CEO & Partner",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Frederico Heitmann",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time2": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/fabio-feichtinger-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "CTO & Partner",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Fábio Feichtinger",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time3": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/andre-dudek-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Director & Partner",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "André Dudek",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time4": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/fatima-raizaro-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Head of RH",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Fátima Raizaro",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time5": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/juan-nader-150x150.jpg",
+      "isFullModeStyle": true,
+      "subhead": "Head of Marketing",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Juan Nader",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time6": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/anna-chimenes-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Head of Quality Assurance",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Anna Chimenes",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time7": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/marcos-cipriani-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "General Manager Europe",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Marcos Cipriani",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time8": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/rafael-esberard-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "SVP of Global Sales",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Rafael Esberard",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time9": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/carlos-oliveira-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Sales Manager Brazil",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Carlos Oliveira",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time10": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/cecilia-pereira-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Head of Trainning and Development",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Cecília Pereira",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time11": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/urania-reis-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Head of Quality Assurance",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Urânia Reis",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time12": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/guilherme-cardoso-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Head of Engineering",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Guilherme Cardoso",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time13": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/rodrigo-de-gouveia-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Design Experience Director",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Rodrigo de Gouveia",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time14": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/03/ammon-cunha-150x150.jpg",
+      "isFullModeStyle": true,
+      "subhead": "Head of Business Intelligence",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Ammon Cunha",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time15": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/barbara-cruz-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Design Experience",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Bárbara Cruz",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time16": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/ana-lebre-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Sales Analyst",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Ana Lebre",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time17": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/victor-angelotti-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Designer",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Victor Angelotti",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time18": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/02/camila-santos-150x150.png",
+      "isFullModeStyle": true,
+      "subhead": "Sales Analyst",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Camila Santos",
+      "blockClass": "timedAcct"
+    }
+  },
+  "info-card#time19": {
+    "props": {
+      "imageUrl": "https://acct.global/wp-content/uploads/2021/03/rafael-rossini-150x150.jpg",
+      "isFullModeStyle": true,
+      "subhead": "Developer",
+      "callToActionText": "",
+      "textPosition": "center",
+      "headline": "Rafael Rossini",
+      "blockClass": "timedAcct"
+    }
+  },
+  "flex-layout.row#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }
+}
