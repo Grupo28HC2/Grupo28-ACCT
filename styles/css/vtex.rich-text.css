@@ -91,6 +91,9 @@
   .strong--yellowAcct {
     color: #fcc200;
   }
+  .strong--trustedAcct{
+    color: #fcc200;
+  }
 
   .strong--aboutUsAcct {
     color: #0a0909;
@@ -169,6 +172,15 @@
 
 .container--timedescAcct{
   margin-bottom: 60px;
+}
+
+.container--porqueacct {  
+  text-align: center;
+  justify-content: center;
+}
+
+.container--porqueacct .paragraph {
+  margin: 0;
 }
 
 
