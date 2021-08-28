@@ -127,8 +127,8 @@
   border-right: 0px;
 }
 
-.heading--aboutUs-header {
 
+.heading--aboutUs-header {
   color: #ffffff;
   padding-left: 100px;
   font-family: "Open Sans Condensed";
@@ -142,11 +142,20 @@
 
 .strong--aboutUs-header{
   color: #fcc200;
-    display: inline-block;
-    margin: 0 5px;
-    animation: blink 1s step-start 0s infinite;
-    -webkit-animation: blink 1s step-start 0s infinite;
+  display: inline-block;
+  margin: 0 5px;
+  animation: blink 1s ease infinite;
  }
+
+ @keyframes blink {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0
+  }
+}
+
 
 .container--servicos-header {
   background: url("https://acct.global/wp-content/uploads/2020/10/cover-services.jpg");
