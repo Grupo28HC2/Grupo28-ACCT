@@ -78,9 +78,9 @@
       //"search-bar",
       "locale-switcher#pt",
       "locale-switcher#en",
-      "locale-switcher#es"//,
+      "locale-switcher#pt",//,
       //"login",
-      //"minicart.v2"
+      "minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -153,29 +153,31 @@
   },
 
   "locale-switcher#pt":{
-
+    "props":{
+      "button":"EN",
+      "buttonText":"EN",
+      "blockClass":"ptbr"
+    }
   },
   "locale-switcher#en":{
     "props":{
-      "buttonText": "EN"
+    "button":"EN",
+    "buttonText":"EN",
+    "blockClass":"inen"
     }
   },
   "locale-switcher#es":{
     "props":{
     "button":"ES",
     "buttonText":"ES",
-    "container":"ES",
-    "list":"ES",
-    "listElement":"ES",
-    "localeIdText":"ES",
-    "relativeContainer":"ES"
+    "blockClass":"eses"
     }
-  },
-  "minicart.v2":{
+  }//,  Minicart configurdo no arquivo minicart
+ /* "minicart.v2":{
     "props":{
       "customPixelEventId":"add-cart",
       "customPixelEventName": "cart-added"
 
     }
-  }
+  }*/
 }
