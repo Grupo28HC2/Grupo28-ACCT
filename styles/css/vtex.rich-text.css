@@ -132,6 +132,20 @@
   font-weight: 500;
 }
 
+.container--aboutus-header {
+  background: url(https://acct.global/wp-content/uploads/2020/10/cover-about-us.jpg);
+  padding: 60px 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.heading--aboutus-header {
+  color: #ffffff;
+  padding-left: 100px;
+  font-family: "Open Sans Condensed";
+  font-weight: 500;
+}
+
 .wrapper--servicos-paragrafo {
   padding: 0 190px;
 }

@@ -78,9 +78,9 @@
       //"search-bar",
       "locale-switcher#pt",
       "locale-switcher#en",
-      "locale-switcher#pt",//,
-      //"login",
-      "minicart.v2"
+      "locale-switcher#pt",
+      "minicart.v2",
+      "login"
     ]
   },
   "flex-layout.col#logo-desktop": {

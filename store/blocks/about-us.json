@@ -1,6 +1,7 @@
 {
   "store.custom#about-us": {
     "blocks": [
+      "flex-layout.row#about-us-image",
       "rich-text#maintitle-about-us",
       "flex-layout.row#about-us",
       "rich-text#porque-acct",
@@ -12,6 +13,19 @@
       "rich-text#timequip-acct",
       "slider-layout#time-about-us"
     ]
+  },
+
+  "flex-layout.row#about-us-image": {
+    "children": ["rich-text#about-us-image"],
+    "props": {
+      "blockClass": "aboutus-header"
+    }
+  },
+  "rich-text#about-us-image": {
+    "props": {
+      "text": "## SOBRE NÓS",
+      "blockClass": "aboutus-header"
+    }
   },
   "rich-text#maintitle-about-us": {
     "props": {

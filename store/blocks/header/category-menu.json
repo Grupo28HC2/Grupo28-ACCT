@@ -21,7 +21,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---inicio/",
+        "href": "/inicio/",
         "noFollow": false,
         "tagTitle": "INICIO",
         "text": "INÍCIO"
@@ -36,7 +36,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---acct",
+        "href": "/acct",
         "noFollow": false,
         "tagTitle": "ACCT",
         "text": "ACCT"
@@ -105,7 +105,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acct---accessories/imprensa/",
+        "href": "/acct/imprensa/",
         "noFollow": false,
         "tagTitle": "Imprensa",
         "text": "IMPRENSA E MÍDIA"
@@ -120,7 +120,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acct---accessories/carreiras/",
+        "href": "/acct/carreiras/",
         "noFollow": false,
         "tagTitle": "Carreiras",
         "text": "CARREIRAS"
@@ -135,7 +135,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/",
+        "href": "/oquefazemos/",
         "noFollow": false,
         "tagTitle": "O QUE FAZEMOS",
         "text": "O QUE FAZEMOS"
@@ -180,7 +180,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/",
+        "href": "/servicos/",
         "noFollow": false,
         "tagTitle": "servicos",
         "text": "SERVIÇOS"
@@ -235,7 +235,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/quality",
+        "href": "/oquefazemos/servicos/quality",
         "noFollow": false,
         "tagTitle": "quality",
         "text": "QUALITY ASSURANCE"
@@ -250,7 +250,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/data",
+        "href": "/oquefazemos/servicos/data",
         "noFollow": false,
         "tagTitle": "data",
         "text": "DATA E GROWTH"
@@ -266,7 +266,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/experience",
+        "href": "/oquefazemos/servicos/experience",
         "noFollow": false,
         "tagTitle": "experience",
         "text": "EXPERIENCE DESIGN"
@@ -282,7 +282,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/tecnologia",
+        "href": "/oquefazemos/servicos/tecnologia",
         "noFollow": false,
         "tagTitle": "tecnologia",
         "text": "TECNOLOGIA"
@@ -298,7 +298,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categorias/",
+        "href": "/oquefazemos/categorias/",
         "noFollow": false,
         "tagTitle": "categorias",
         "text": "CATEGORIAS INDUSTRIAIS"
@@ -351,7 +351,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/eletrodomesticos",
+        "href": "/oquefazemos/categoria/eletrodomesticos",
         "noFollow": false,
         "tagTitle": "eletrodomesticos",
         "text": "ELETRODOMÉSTICOS"
@@ -367,7 +367,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/bensdeconsumo",
+        "href": "/oquefazemos/categoria/bensdeconsumo",
         "noFollow": false,
         "tagTitle": "bensdeconsumo",
         "text": "BENS DE CONSUMO"
@@ -383,7 +383,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/eletronicos",
+        "href": "/oquefazemos/categoria/eletronicos",
         "noFollow": false,
         "tagTitle": "eletronicos",
         "text": "ELETRÔNICOS"
@@ -399,7 +399,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/casaejardim",
+        "href": "/oquefazemos/categoria/casaejardim",
         "noFollow": false,
         "tagTitle": "casaejardim",
         "text": "CASA E JARDIM"
@@ -415,7 +415,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/supermercados",
+        "href": "/oquefazemos/categoria/supermercados",
         "noFollow": false,
         "tagTitle": "supermercados",
         "text": "SUPERMERCADOS"
@@ -431,7 +431,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/moda",
+        "href": "/oquefazemos/categoria/moda",
         "noFollow": false,
         "tagTitle": "moda",
         "text": "MODA"
@@ -447,7 +447,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/farmacia",
+        "href": "/oquefazemos/categoria/farmacia",
         "noFollow": false,
         "tagTitle": "farmacia",
         "text": "FARMÁCIA"
@@ -464,7 +464,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/cases/",
+        "href": "/oquefazemos/cases/",
         "noFollow": false,
         "tagTitle": "cases",
         "text": "CASES"
@@ -480,7 +480,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/blog/",
         "noFollow": false,
         "tagTitle": "Blog",
         "text": "BLOG"
@@ -495,7 +495,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/parceiros/",
         "noFollow": false,
         "tagTitle": "Parceiros",
         "text": "PARCEIROS"
@@ -510,30 +510,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/contato/",
         "noFollow": false,
         "tagTitle": "Contato",
         "text": "CONTATO"
       }
     }
-  },
-  "menu-item#more": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
   },
   "vtex.menu@2.x:submenu#more": {
     "props": {

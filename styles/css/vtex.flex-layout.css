@@ -1,6 +1,7 @@
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
+
 }
 
 .flex-layout.row--servicos--header :global(.vtex-store-components-3-x-container){
@@ -132,3 +133,6 @@
   }
 }
 
+.flexRowContent{
+  background: #ffffff;
+}
