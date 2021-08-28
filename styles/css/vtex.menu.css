@@ -28,12 +28,7 @@
 
 .styledLinkIcon :hover,
 .styledLink :hover,
-.styledLinkContainer :hover,
-.styledLinkContent :hover {
-    color: #ffb100;
-} 
-.styledLinkContainer :focus,
-.styledLinkContent :focus  {
+.styledLinkContainer :hover{
     color: #ffb100;
 }
 
