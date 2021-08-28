@@ -120,19 +120,31 @@
 .infoCardContainer--timedAcct {
   width: 150px;
   height: 150px;
-  padding: 20px;
+  padding: 50px;
   margin: 15px;
   border-radius: 100%;
   border: #dedede 3px solid;
   margin: 0 auto;
-
+  position: relative;
 }
 
-.infoCardSubhead{
+.infoCardHeadline--timedAcct{
+  position: absolute;  
+  bottom: -35px;
+  text-align: center;
+  margin: 15px 0 0;
+  font-size: 16px;
+  
+}
+
+.infoCardSubhead--timedAcct{
   position: absolute;
-	top: 0px;
-	z-index: -1;
+  bottom: -60px;
+  font-size: 13px !important;
+  text-align: center;
+  margin: 0;
 }
+
 
 .infoCardCallActionContainer--timedAcct{
   display:none;
