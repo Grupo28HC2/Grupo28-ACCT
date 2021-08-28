@@ -15,7 +15,7 @@
   },
   "rich-text#servicos": {
     "props": {
-      "text": "## SERVIÇOS",
+      "text": "## SERVIÇOS**_**",
       "blockClass": "servicos-header"
     }
   },
