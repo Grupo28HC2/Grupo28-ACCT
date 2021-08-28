@@ -10,11 +10,11 @@
   },
   "flex-layout.col#footer-wrapper": {
     "children": [
-      "image#gptw",
+      "image#gptwmobile",
       "flex-layout.col#logo-mobile",
-      "flex-layout.col#brasil",
-      "flex-layout.col#espanha",
-      "flex-layout.col#usa"
+      "flex-layout.col#brasilmobile",
+      "flex-layout.col#espanhamobile",
+      "flex-layout.col#usamobile"
     ],
     "props": {
       "blockClass": "footer-row",
@@ -24,7 +24,7 @@
     }
   },
 
-  "image#gptw": {
+  "image#gptwmobile": {
     "props": {
       "src": "https://acct.global/wp-content/uploads/2021/07/selo-gptw-2021.svg",
       "maxWidth": "150px"
@@ -40,13 +40,13 @@
       "blockClass": "footer_logo_col"
     },
     "children": [
-      "image#logo",
+      "image#logomobile",
       "flex-layout.row#social-networks-mobile",
-      "link#contact"
+      "link#contactmobile"
     ]
   },
 
-  "image#logo": {
+  "image#logomobile": {
     "props": {
       "src": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
       "maxWidth": "140px"
@@ -54,10 +54,10 @@
   },
 
   "flex-layout.row#social-networks-mobile": {
-    "children": ["image#linkedin", "image#youtube", "image#instagram"]
+    "children": ["image#linkedinmobile", "image#youtubemobile", "image#instagrammobile"]
   },
 
-  "image#linkedin": {
+  "image#linkedinmobile": {
     "props": {
       "src": "https://image.flaticon.com/icons/png/32/1384/1384014.png",
       "link": {
@@ -66,7 +66,7 @@
       }
     }
   },
-  "image#youtube": {
+  "image#youtubemobile": {
     "props": {
       "src": "https://image.flaticon.com/icons/png/32/1384/1384012.png",
       "link": {
@@ -75,7 +75,7 @@
       }
     }
   },
-  "image#instagram": {
+  "image#instagrammobile": {
     "props": {
       "src": "https://image.flaticon.com/icons/png/32/1384/1384015.png",
       "link": {
@@ -85,7 +85,7 @@
     }
   },
 
-  "link#contact": {
+  "link#contactmobile": {
     "props": {
       "label": "contato@acct.global",
       "href": "mailto:contato@acct.global",
@@ -97,14 +97,14 @@
 
 
   /*********COL-BRASIL**********/
-  "flex-layout.col#brasil": {
-    "children": ["rich-text#brasil", "rich-text#address-brasil"],
+  "flex-layout.col#brasilmobile": {
+    "children": ["rich-text#brasilmobile", "rich-text#address-brasilmobile"],
     "props": {
       "verticalAlign": "top"
     }
   },
 
-  "rich-text#brasil": {
+  "rich-text#brasilmobile": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -112,7 +112,7 @@
       "blockClass": "h2-footer"  
     }
   },
-  "rich-text#address-brasil": {
+  "rich-text#address-brasilmobile": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -122,14 +122,14 @@
   },
 
   /*********COL-ESPANHA**********/
-  "flex-layout.col#espanha": {
-    "children": ["rich-text#espanha", "rich-text#address-espanha"],
+  "flex-layout.col#espanhamobile": {
+    "children": ["rich-text#espanhamobile", "rich-text#address-espanhamobile"],
     "props": {
       "verticalAlign": "top"
     }
   },
 
-  "rich-text#espanha": {
+  "rich-text#espanhamobile": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -137,7 +137,7 @@
       "blockClass": "h2-footer"
     }
   },
-  "rich-text#address-espanha": {
+  "rich-text#address-espanhamobile": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -147,14 +147,14 @@
   },
 
   /*********COL-USA**********/
-  "flex-layout.col#usa": {
-    "children": ["rich-text#usa", "rich-text#address-usa"],
+  "flex-layout.col#usamobile": {
+    "children": ["rich-text#usamobile", "rich-text#address-usamobile"],
     "props": {
       "verticalAlign": "top"
     }
   },
 
-  "rich-text#usa": {
+  "rich-text#usamobile": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -162,7 +162,7 @@
       "blockClass": "h2-footer"
     }
   },
-  "rich-text#address-usa": {
+  "rich-text#address-usamobile": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

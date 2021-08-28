@@ -26,15 +26,12 @@
     margin-top:-1px;
 }
 
-
+.styledLinkIcon :hover,
+.styledLink :hover,
 .styledLinkContainer :hover{
-    color: #FFFF00;
+    color: #ffb100;
 }
 
-.styledLinkIcon :hover{
-    display: hidden;
-    color:#FFFFff
-}
 
 .styledLinkIcon--icon2 :hover{
     display: inline;

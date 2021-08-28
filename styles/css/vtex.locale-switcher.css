@@ -6,11 +6,12 @@
     width: 0.6rem;
 }
 
-.buttonText{
-    font-size: 11px;
+.buttonText::after{
+    font-size: 13px !important;
 }
 
-.buttonText :hover{
+.buttonText :hover,
+.localeIdText{
     color:#Fcc91f;
 
 }
