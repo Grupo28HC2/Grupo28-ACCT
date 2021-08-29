@@ -139,7 +139,7 @@
   align-items: center;
 }
 
-.flexRow--porqueacct .flexCol .flexColChild--languages{
+.flexRow--porqueacct .flexCol {
   align-items: center;
 }
 
