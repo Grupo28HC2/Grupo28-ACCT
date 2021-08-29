@@ -1,7 +1,7 @@
 {
   "store.custom#about-us": {
     "blocks": [
-      "flex-layout.row#about-us-image",
+      "rich-text#aboutUs",
       "rich-text#maintitle-about-us",
       "flex-layout.row#about-us",
       "rich-text#porque-acct",
@@ -15,18 +15,13 @@
     ]
   },
 
-  "flex-layout.row#about-us-image": {
-    "children": ["rich-text#about-us-image"],
+  "rich-text#aboutUs": {
     "props": {
-      "blockClass": "aboutus-header"
+      "text": "## SOBRE NÓS**_**",
+      "blockClass": "aboutUs-header"
     }
   },
-  "rich-text#about-us-image": {
-    "props": {
-      "text": "## SOBRE NÓS",
-      "blockClass": "aboutus-header"
-    }
-  },
+  
   "rich-text#maintitle-about-us": {
     "props": {
       "text": "Projetando o **futuro do comércio digital**",

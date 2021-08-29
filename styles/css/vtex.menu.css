@@ -31,6 +31,7 @@
 
 .styledLinkIcon :hover,
 .styledLink :hover,
+<<<<<<< HEAD
 .styledLinkContainer :hover,
 .styledLinkContent :hover {
     color: #fcc200 !important;
@@ -39,6 +40,10 @@
 .styledLinkContent :focus,
 .menuItem :focus  {
     color: #fcc200;
+=======
+.styledLinkContainer :hover{
+    color: #ffb100;
+>>>>>>> cd712ab7640733fa0c098cb794fce0d038e3caec
 }
 
 
