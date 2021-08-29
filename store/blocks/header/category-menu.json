@@ -8,6 +8,7 @@
       "menu-item#category-inicio",
       "menu-item#category-acct",
       "menu-item#category-oquefazemos",
+      "menu-item#category-leads",
       "menu-item#category-blog",
       "menu-item#category-parceiros",
       "menu-item#category-contato"
@@ -26,6 +27,22 @@
         "noFollow": false,
         "tagTitle": "INICIO",
         "text": "INÍCIO"
+      }
+    }
+  },
+  "menu-item#category-leads": {
+    "props": {
+      "id": "menu-item-category-leads",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "activeClassName": "base",
+      "itemProps": {
+        "type": "internal",
+        "href": "/leads",
+        "noFollow": false,
+        "tagTitle": "leads",
+        "text": "LEADS"
       }
     }
   },
