@@ -1,65 +1,83 @@
-# Store theme
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Our boilerplate theme to create stores in the VTEX IO platform.
+## Tema da loja ACCT
+**************************************************************************************************
+Pré-requisitos | Tecnologias   |    Projeto   |    Layout   |    Licença
 
-## Preview
-![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
 
-## Tutorial
-To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
 
-## Dependencies
-All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
 
-Store framework is the baseline to create any store using _VTEX IO Web Framework_.
-- [Store](https://github.com/vtex-apps/store/blob/master/README.md)
+-------------------------------------------------------------------------------------------------
+## 🧩 Pré-requisitos
 
-Store GraphQL is a middleware to access all VTEX APIs.
-- [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe), [Node.js](https://nodejs.org/en/), 
+[Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable), [VTEX TOOLBELT](https://github.com/vtex/toolbelt). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/), criar um espaço de trabalho de desenvolvimento e vinculando seus arquivos locais à plataforma.
+-----------------------------------------------------------------------------------------------------
+## 🚀 Tecnologias
 
-### Store Component Apps
-- [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
-- [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
-- [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
-- [Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)
-- [Telemarketing](https://github.com/vtex-apps/telemarketing/blob/master/docs/README.md)
-- [Menu](https://github.com/vtex-apps/menu/blob/master/docs/README.md)
-- [Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)
-- [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)
-- [Category Menu](https://github.com/vtex-apps/category-menu/blob/master/docs/README.md)
-- [Product Summary](https://github.com/vtex-apps/product-summary/blob/master/docs/README.md)
-- [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)
-- [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
-- [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
-- [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
-- [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md) 
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### Store Pixel Apps
+✅[CSS](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-customizing-your-stores-typography#using-store-theme-css-files);
 
- - [Facebook Pixel](https://github.com/vtex-apps/facebook-pixel/blob/master/docs/README.md)
- - [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
+✅[VTEX IO](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-2-basicsetuptodevelopinvtexio);
 
-## Contributing
+✅[Store-theme](https://github.com/vtex-apps/store-theme);
 
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
+✅[React](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-1-developing-storefront-apps-using-react-and-vtex-io);
 
-## Contributors ✨
+✅[Typescript](https://github.com/vtex/typescript);
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+✅[Node.JS](https://github.com/vtex/node-vtex-api);
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+✅[AWS Lambda](https://aws.amazon.com/pt/lambda/);
+
+✅[DynamoDB](https://aws.amazon.com/pt/dynamodb/);
+
+-----------------------------------------------------------------------------------------------
+## 🔋 Como a comunicação com as APIs acontece:
+
+![image](https://user-images.githubusercontent.com/72118415/131257427-b4e1e7c9-2a04-439d-b0b7-a8e988c3f739.png)
+![image](https://user-images.githubusercontent.com/72118415/131257725-d45ca962-1ede-4e70-a98e-398603e0a6dd.png)
+
+
+-----------------------------------------------------------------------------------------
+## 💻 Projeto
+
+Projeto é criar uma loja na plataforma VTEX IO com o clone da página da ACCT, com todas as funcionalidades que a 
+plataforma nos permite como tela inicial, produtos, lista de leads.  
+----------------------------------------------------------------------------------------
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através desse link. É necessário ter conta no [VTEX IO](https://learn.vtex.com/docs/course-layout-blocks-step05tab-layout-lang-en)
+para acessá-lo.
+----------------------------------------------------------------------------------------
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+----------------------------------------------------------------------------------------
+## ✨ Contribuidores 
+
+Os agradecimentos vão para essas pessoas maravilhosas.
+
+----------------------------------------------------------------------------------------
 <table>
   <tr>
-    <td align="center"><a href="http://www.hugoccosta.com"><img src="https://avatars2.githubusercontent.com/u/20212776?v=4" width="100px;" alt=""/><br /><sub><b>Hugo Costa</b></sub></a><br /><a href="https://github.com/vtex-apps/store-theme/commits?author=hugocostadev" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/allyssonalmeida"><img src="https://avatars.githubusercontent.com/u/14075748?v=4" width="100px;" alt=""/><br /><sub><b>Allysson Fernando</b></sub></a><br /><a href="https://github.com/allyssonalmeida">👨🏽‍💻</a></td>
+    <td align="center"><a href="https://github.com/anaivania"><img src="https://avatars.githubusercontent.com/u/86748677?v=4" width="100px;" alt=""/><br /><sub><b>Anaivania Cardoso</b></sub></a><br /><a href="https://github.com/anaivania">👩🏻‍💻</a></td>
+    <td align="center"><a href="https://github.com/chritianegozza"><img src="https://avatars.githubusercontent.com/u/72118415?v=4" width="100px;" alt=""/><br /><sub><b>Christiane Gozza</b></sub></a><br /><a href="https://github.com/chritianegozza">👩🏻‍💻</a></td>
+    <td align="center"><a href="https://github.com/lokinmodar"><img src="https://ca.slack-edge.com/T02CG6LJLMP-U02BX5X7D2S-0199a4410aee-512" width="100px;" alt=""/><br /><sub><b>Dante Souza</b></sub></a><br /><a href="https://github.com/lokinmodar">👨🏽‍💻</a></td>
+    <td align="center"><a href="https://github.com/emilytalini"><img src="https://avatars.githubusercontent.com/u/79375409?v=4" width="100px;" alt=""/><br /><sub><b>Emily talini</b></sub></a><br /><a href="https://github.com/emilytalini">👩🏻‍💻</a></td>
+   </tr>
+  <tr> 
+    <td align="center"><a href="https://github.com/EricaSugui"><img src="https://avatars.githubusercontent.com/u/45742312?v=4" width="100px;" alt=""/><br /><sub><b>Erica Akira</b></sub></a><br /><a href="https://github.com/EricaSugui">👩🏻‍💻</a></td>
+    <td align="center"><a href="https://github.com/nyodinariai"><img src="https://ca.slack-edge.com/T02CG6LJLMP-U02BP6DGVQX-g7d5e0bd6687-512" width="100px;" alt=""/><br /><sub><b>Nathan Liyod</b></sub></a><br /><a href="https://github.com/nyodinariai">👨🏽‍💻</a></td>
+    <td align="center"><a href="https://github.com/ricardomcifba"><img src="https://avatars.githubusercontent.com/u/35120906?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo Carvalho</b></sub></a><br /><a href="https://github.com/ricardomcifba">👨🏽‍💻</a></td>
+    <td align="center"><a href="https://github.com/ricardokioshi"><img src="https://avatars.githubusercontent.com/u/38512229?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo Kubo</b></sub></a><br /><a href="https://github.com/ricardokioshi">👨🏽‍💻</a></td>
+    <td align="center"><a href="https://github.com/WandersonLontra"><img src="https://avatars.githubusercontent.com/u/82835604?v=4" width="100px;" alt=""/><br /><sub><b>Wanderson Lontra</b></sub></a><br /><a href="https://github.com/WandersonLontra">👨🏽‍💻</a></td>
   </tr>
+
 </table>
+------------------------------------------------------------------------------------------------------
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+### Feito com 💛 by ACCT | HIRING CODERS-2021 | 💗 Equipe 28 | 👋 Participe da nossa comunidade!
