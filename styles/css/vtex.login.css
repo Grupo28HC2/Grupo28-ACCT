@@ -3,6 +3,6 @@
     width: 100px;
 }
 
-.label :hover {
+.label:hover {
     color: #fcc200 !important;
-} 
+}

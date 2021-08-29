@@ -1,10 +1,10 @@
 .styledLinkContent{
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 400;
     cursor: pointer;
     color:#000000;
     margin-left: -0.6rem;
-    margin-right: -0.4rem;    
+    margin-right: -0.4rem;
 }
 
 .styledLinkContainer{
@@ -15,7 +15,7 @@
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-   color: #000000;
+    color: #000000;
     margin-left: 10px;
 }
 
@@ -29,24 +29,24 @@
     margin-top:-1px;
 }
 
-.styledLinkIcon :hover,
-.styledLink :hover,
-.styledLinkContainer :hover,
-.styledLinkContent :hover {
+.styledLinkIcon:hover,
+.styledLink:hover,
+.styledLinkContainer:hover,
+.styledLinkContent:hover {
     color: #fcc200 !important;
-} 
-.styledLinkContainer :focus,
-.styledLinkContent :focus,
-.menuItem :focus  {
+}
+.styledLinkContainer:focus,
+.styledLinkContent:focus,
+.menuItem:focus  {
     color: #fcc200;
 }
 
-.styledLinkContainer :hover{
+.styledLinkContainer:hover{
     color: #fcc200;
 }
 
 
-.styledLinkIcon  ::after{
+.styledLinkIcon::after{
     color: #fcc200;
 }
 
