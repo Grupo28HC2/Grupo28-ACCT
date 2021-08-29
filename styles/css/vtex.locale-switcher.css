@@ -3,5 +3,15 @@
 }
 
 .container {
-    width: 1rem;
+    width: 0.6rem;
+}
+
+.buttonText::after{
+    font-size: 13px !important;
+}
+
+.buttonText:hover,
+.localeIdText{
+    color:#Fcc91f;
+
 }

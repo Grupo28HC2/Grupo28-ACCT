@@ -1,9 +1,5 @@
-.notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
-  font-weight: 700;
-  font-size: 12px;
-  text-decoration: underline;
+.imageElementLink{
+    text-align: center;
 }
 
 .infoCardContainer--info-card-home {
@@ -110,4 +106,85 @@
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
+}
+
+.logoImage {
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  max-width: 145px;
+  padding-top: 0;
+  margin-left: 16px;
+}
+
+.infoCardContainer--timedAcct {
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  margin: 15px;
+  border-radius: 100%;
+  border: #dedede 3px solid;
+  margin: 0 auto;
+  position: relative;
+}
+
+.infoCardHeadline--timedAcct{
+  position: absolute;
+  bottom: -35px;
+  text-align: center;
+  margin: 15px 0 0;
+  font-size: 16px;
+
+}
+
+.infoCardSubhead--timedAcct{
+  position: absolute;
+  bottom: -60px;
+  font-size: 13px !important;
+  text-align: center;
+  margin: 0;
+}
+
+
+.infoCardCallActionContainer--timedAcct{
+  display:none;
+}
+
+.imageElement--porqueAcct:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: .6s;
+  filter: opacity(0.7);
+}
+
+.imageElement--trustedAcct {
+	display: block;
+	max-width: 300px;
+	margin: 20px auto 40px auto;
+	transition: .6s;
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
+}
+
+.imageElement--trustedAcct:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+	-webkit-filter: none;
+	filter: none;
+}
+
+.imageElement--somoAcct {
+max-width:538px;
+max-height:368px;
+width: auto;
+height: auto;
+}
+@media screen and (max-width: 880px){
+  .imageElement--m-image-footer{
+      margin-bottom: 64px
+  }
 }

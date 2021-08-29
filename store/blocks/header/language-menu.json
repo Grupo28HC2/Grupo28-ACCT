@@ -1,0 +1,60 @@
+{
+  "vtex.menu@2.x:menu#language-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "language"
+    },
+    "children": ["menu-item#EN", "menu-item#PT", "menu-item#ES"]
+  },
+  "menu-item#EN": {
+    "props": {
+      "id": "english",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "activeClassName": "base",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "en",
+        "text": "EN"
+      },
+      "blockClass":"langs"
+    }
+  },
+  "menu-item#PT": {
+    "props": {
+      "id": "portugues",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "activeClassName": "base",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "pt",
+        "text": "PT"
+      },
+      "blockClass":"langs"
+    }
+  },
+  "menu-item#ES": {
+    "props": {
+      "id": "espanol",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "activeClassName": "base",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "es",
+        "text": "ES"
+      },
+      "blockClass":"langs"
+    }
+  }
+}

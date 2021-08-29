@@ -10,5 +10,9 @@
   },
   "store.custom#leadslist":{
     "path": "/leadslist"
+  },
+
+  "store.custom#servicos": {
+    "path": "/servicos"
   }
 }

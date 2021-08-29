@@ -2,7 +2,7 @@
   justify-content: center;
 }
 .sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
+  background-color: #ffffff;
 }
 
 .sliderTrackContainer {
@@ -24,4 +24,13 @@
   margin-bottom: 25px;
   padding-left: .5rem;
   padding-right: .5rem;
+}
+
+.slideChildrenContainer--sliderTimeAcct{
+  margin-bottom: 170px;
+  
+}
+
+.paginationDotsContainer--sliderTimeAcct{
+  display: none;
 }

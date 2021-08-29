@@ -1,12 +1,14 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menuPrincipal"
     },
     "children": [
       "menu-item#category-inicio",
       "menu-item#category-acct",
       "menu-item#category-oquefazemos",
+      "menu-item#category-leads",
       "menu-item#category-blog",
       "menu-item#category-parceiros",
       "menu-item#category-contato"
@@ -18,12 +20,29 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---inicio/",
+        "href": "/inicio",
         "noFollow": false,
         "tagTitle": "INICIO",
-        "text": "INICIO"
+        "text": "INÍCIO"
+      }
+    }
+  },
+  "menu-item#category-leads": {
+    "props": {
+      "id": "menu-item-category-leads",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "activeClassName": "base",
+      "itemProps": {
+        "type": "internal",
+        "href": "/leads",
+        "noFollow": false,
+        "tagTitle": "leads",
+        "text": "LEADS"
       }
     }
   },
@@ -33,19 +52,29 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---acct",
+        "href":"/acct",
         "noFollow": false,
         "tagTitle": "ACCT",
         "text": "ACCT"
       },
       "iconProps": {
         "id": "nav-caret--down",
-        "size": 16,
+        "size": 10,
         "viewBox": "0 0 16 16",
-        "activeClassName": "danger",
-        "mutedClassName": "c-action-primary"
+        "activeClassName": "base",
+        "mutedClassName": "c-action-primary",
+        "blockClass":"icon1"
+      },
+      "iconProps#1": {
+        "id": "sti-close--line",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "base",
+        "mutedClassName": "c-action-primary",
+        "blockClass":"icon2"
       },
       "iconToTheRight": true,
       "iconPosition":"right"
@@ -56,7 +85,7 @@
   },
   "vtex.menu@2.x:submenu#category-acct": {
     "props": {
-      "width": "auto"
+      "width": "300px"
     },
     "children": [
       "vtex.menu@2.x:menu#category-acct"
@@ -78,9 +107,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/acct---accessories/sobre/",
+        "href": "/about-us",
         "noFollow": false,
         "tagTitle": "Sobre",
         "text": "SOBRE NÓS"
@@ -93,9 +123,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/acct---accessories/imprensa/",
+        "href": "/acct/imprensa/",
         "noFollow": false,
         "tagTitle": "Imprensa",
         "text": "IMPRENSA E MÍDIA"
@@ -108,9 +139,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/acct---accessories/carreiras/",
+        "href": "/acct/carreiras/",
         "noFollow": false,
         "tagTitle": "Carreiras",
         "text": "CARREIRAS"
@@ -123,18 +155,19 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/",
+        "href":"/oquefazemos",
         "noFollow": false,
         "tagTitle": "O QUE FAZEMOS",
         "text": "O QUE FAZEMOS"
       },
       "iconProps": {
         "id": "nav-caret--down",
-        "size": 16,
+        "size": 10,
         "viewBox": "0 0 16 16",
-        "activeClassName": "danger",
+        "activeClassName": "base",
         "mutedClassName": "c-action-primary"
       },
       "iconToTheRight": true,
@@ -146,7 +179,7 @@
   },
   "vtex.menu@2.x:submenu#category-oquefazemos": {
     "props": {
-      "width": "auto"
+      "width": "300px"
     },
     "children": [
       "vtex.menu@2.x:menu#category-oquefazemos"
@@ -168,24 +201,27 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/",
+        "href": "/servicos/",
         "noFollow": false,
         "tagTitle": "servicos",
         "text": "SERVIÇOS"
       },
       "iconProps": {
-        "id": "nav-caret--down", 
-        "size": 16,
+        "id": "nav-caret--down",
+        "size": 10,
         "viewBox": "0 0 16 16",
-        "activeClassName": "danger",
-        "mutedClassName": "c-action-primary"
+        "activeClassName": "base",
+        "mutedClassName": "warning"
+
       },
       "iconToTheRight": true,
-      "iconPosition":"right"
+      "iconPosition":"right",
+      "menuLinkDivLeft":"true"
 
-      
+
     },
     "blocks": [
       "vtex.menu@2.x:submenu#category-oquefazemos-servicos"
@@ -193,8 +229,10 @@
   },
   "vtex.menu@2.x:submenu#category-oquefazemos-servicos": {
     "props": {
-      "width": "auto",
-      "blockClass":"batatinhafrita"
+      "width": "300px",
+      "blockClass":"batatinhafrita",
+      "renderLink":"right"
+
     },
     "children": [
       "vtex.menu@2.x:menu#category-oquefazemos-servicos"
@@ -202,7 +240,8 @@
   },
   "vtex.menu@2.x:menu#category-oquefazemos-servicos": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "menuDisposition":"left"
     },
     "children": [
       "menu-item#category-oquefazemos-servicos-quality",
@@ -218,9 +257,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/quality",
+        "href": "/oquefazemos/servicos/quality",
         "noFollow": false,
         "tagTitle": "quality",
         "text": "QUALITY ASSURANCE"
@@ -233,9 +273,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/data",
+        "href": "/oquefazemos/servicos/data",
         "noFollow": false,
         "tagTitle": "data",
         "text": "DATA E GROWTH"
@@ -249,9 +290,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/experience",
+        "href": "/oquefazemos/servicos/experience",
         "noFollow": false,
         "tagTitle": "experience",
         "text": "EXPERIENCE DESIGN"
@@ -265,9 +307,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/servicos/tecnologia",
+        "href": "/oquefazemos/servicos/tecnologia",
         "noFollow": false,
         "tagTitle": "tecnologia",
         "text": "TECNOLOGIA"
@@ -281,18 +324,19 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categorias/",
+        "href": "/oquefazemos/categorias/",
         "noFollow": false,
         "tagTitle": "categorias",
         "text": "CATEGORIAS INDUSTRIAIS"
       },
       "iconProps": {
         "id": "nav-caret--down",
-        "size": 16,
+        "size": 10,
         "viewBox": "0 0 16 16",
-        "activeClassName": "danger",
+        "activeClassName": "base",
         "mutedClassName": "c-action-primary"
       },
       "iconToTheRight": true,
@@ -304,7 +348,10 @@
   },
   "vtex.menu@2.x:submenu#category-oquefazemos-categorias": {
     "props": {
-      "width": "auto"
+      "margin-top": "300px",
+      "width": "300px",
+      "blockClass":"cocacola",
+      "menuDisposition": "right"
     },
     "children": [
       "vtex.menu@2.x:menu#category-oquefazemos-categorias"
@@ -331,9 +378,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/eletrodomesticos",
+        "href": "/oquefazemos/categoria/eletrodomesticos",
         "noFollow": false,
         "tagTitle": "eletrodomesticos",
         "text": "ELETRODOMÉSTICOS"
@@ -347,9 +395,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/bensdeconsumo",
+        "href": "/oquefazemos/categoria/bensdeconsumo",
         "noFollow": false,
         "tagTitle": "bensdeconsumo",
         "text": "BENS DE CONSUMO"
@@ -363,9 +412,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/eletronicos",
+        "href": "/oquefazemos/categoria/eletronicos",
         "noFollow": false,
         "tagTitle": "eletronicos",
         "text": "ELETRÔNICOS"
@@ -379,9 +429,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/casaejardim",
+        "href": "/oquefazemos/categoria/casaejardim",
         "noFollow": false,
         "tagTitle": "casaejardim",
         "text": "CASA E JARDIM"
@@ -395,9 +446,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/supermercados",
+        "href": "/oquefazemos/categoria/supermercados",
         "noFollow": false,
         "tagTitle": "supermercados",
         "text": "SUPERMERCADOS"
@@ -411,9 +463,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/moda",
+        "href": "/oquefazemoss/categoria/moda",
         "noFollow": false,
         "tagTitle": "moda",
         "text": "MODA"
@@ -427,9 +480,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/categoria/farmacia",
+        "href": "/oquefazemos/categoria/farmacia",
         "noFollow": false,
         "tagTitle": "farmacia",
         "text": "FARMÁCIA"
@@ -444,27 +498,29 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/cases/",
+        "href": "/oquefazemos/cases/",
         "noFollow": false,
         "tagTitle": "cases",
         "text": "CASES"
       }
     }
   },
-  
+
   "menu-item#category-blog": {
     "props": {
       "id": "menu-item-category-home",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/blog",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
+        "tagTitle": "Blog",
         "text": "BLOG"
       }
     }
@@ -475,11 +531,12 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/partners",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
+        "tagTitle": "Parceiros",
         "text": "PARCEIROS"
       }
     }
@@ -490,11 +547,12 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/contact",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
+        "tagTitle": "Contato",
         "text": "CONTATO"
       }
     }
@@ -505,6 +563,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -556,6 +615,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
@@ -571,6 +631,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -586,6 +647,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/contact-us",

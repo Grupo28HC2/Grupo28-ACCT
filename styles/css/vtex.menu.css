@@ -1,3 +1,73 @@
-.batatinhafrita{
-    background: red;
+.styledLinkContent{
+  font-family: "Open Sans" !important;
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#000000;
+    margin-left: -0.6rem;
+    margin-right: -0.4rem;
+}
+
+.styledLinkContainer{
+    color:#000000
+}
+
+.styledLinkIcon{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.styledLinkIcon:hover{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  fill: #fcc200 !important;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.submenuWrapper--batatinhafrita{
+    margin-left: 200px;
+    margin-top:-1px;
+}
+
+.submenuWrapper--cocacola{
+    margin-left: 200px;
+    margin-top:-1px;
+}
+
+.styledLinkIcon:hover,
+.styledLink:hover,
+.styledLinkContainer:hover,
+.styledLinkContent:hover {
+    color: #fcc200 !important;
+}
+.styledLinkContainer:focus,
+.styledLinkContent:focus,
+.menuItem:focus  {
+    color: #fcc200;
+}
+
+.styledLinkContainer:hover{
+    color: #fcc200;
+}
+
+
+.styledLinkIcon::after{
+    color: #fcc200;
+}
+
+.menuItem--langs{
+    width: 20%;
+}
+
+.styledLinkContent--langs{
+  font-size: 1rem;
+}
+
+.base {
+  color: #fcc200;
 }
