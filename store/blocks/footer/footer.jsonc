@@ -32,7 +32,6 @@
   "image#gptw": {
     "props": {
       "src": "https://acct.global/wp-content/uploads/2021/07/selo-gptw-2021.svg",
-      "maxWidth":"122px",
       "blockClass": "m-image-footer"
     }
   },
