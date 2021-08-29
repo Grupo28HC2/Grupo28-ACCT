@@ -23,7 +23,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/inicio",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "INICIO",
         "text": "INÍCIO"
@@ -55,7 +55,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href":"/acct",
+        "href":"#",
         "noFollow": false,
         "tagTitle": "ACCT",
         "text": "ACCT"
@@ -126,7 +126,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/acct/imprensa/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Imprensa",
         "text": "IMPRENSA E MÍDIA"
@@ -142,7 +142,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/acct/carreiras/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Carreiras",
         "text": "CARREIRAS"
@@ -260,7 +260,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/servicos/quality",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "quality",
         "text": "QUALITY ASSURANCE"
@@ -276,7 +276,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/servicos/data",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "data",
         "text": "DATA E GROWTH"
@@ -293,7 +293,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/servicos/experience",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "experience",
         "text": "EXPERIENCE DESIGN"
@@ -310,7 +310,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/servicos/tecnologia",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "tecnologia",
         "text": "TECNOLOGIA"
@@ -327,7 +327,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/categorias/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "categorias",
         "text": "CATEGORIAS INDUSTRIAIS"
@@ -381,7 +381,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/categoria/eletrodomesticos",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "eletrodomesticos",
         "text": "ELETRODOMÉSTICOS"
@@ -398,7 +398,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/categoria/bensdeconsumo",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "bensdeconsumo",
         "text": "BENS DE CONSUMO"
@@ -415,7 +415,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/categoria/eletronicos",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "eletronicos",
         "text": "ELETRÔNICOS"
@@ -432,7 +432,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/categoria/casaejardim",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "casaejardim",
         "text": "CASA E JARDIM"
@@ -449,7 +449,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/categoria/supermercados",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "supermercados",
         "text": "SUPERMERCADOS"
@@ -466,7 +466,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemoss/categoria/moda",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "moda",
         "text": "MODA"
@@ -483,7 +483,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/categoria/farmacia",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "farmacia",
         "text": "FARMÁCIA"
@@ -501,7 +501,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos/cases/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "cases",
         "text": "CASES"
@@ -518,7 +518,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/blog",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Blog",
         "text": "BLOG"
@@ -534,7 +534,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/partners",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Parceiros",
         "text": "PARCEIROS"
