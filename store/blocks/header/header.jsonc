@@ -40,15 +40,9 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-     // "flex-layout.col#spacer",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
-     // "flex-layout.col#spacer",
       "flex-layout.col#language",
-      //"search-bar",
-      //"locale-switcher#pt",
-      //"locale-switcher#en",
-      //"locale-switcher#pt",//,
       "login",
       "minicart.v2"
     ]
