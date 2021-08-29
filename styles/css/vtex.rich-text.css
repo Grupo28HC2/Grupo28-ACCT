@@ -88,6 +88,42 @@
     line-height: 1.3em;
   }
 
+  .container--yellowAcct{
+    font-size: 3rem;
+    line-height: normal;
+    color: #0a0909;
+  }
+
+  .container--aboutUsAcct{
+    color: #0a0909;
+  }
+
+  .container--trustedAcct{    
+    color: #0a0909;
+  }
+
+  .container--trustedAcct{    
+    color: #0a0909;
+  }
+
+
+  .container--timedAcct{    
+    color: #0a0909;
+  }
+
+  .container--timedescAcct{    
+    color: #0a0909;
+  }
+
+  .paragraph--trustedAcct{
+    font-size: 32px;
+  }
+
+  .paragraph--timedAcct{
+    font-size: 32px;
+  }
+
+
   .strong--yellowAcct {
     color: #fcc200;
   }
@@ -98,6 +134,15 @@
   .strong--timedescAcct{
     color: #fcc200;
   }
+
+  .strong--timedAcct{
+    color: #fcc200;
+  }
+
+  .strong--porqueAcct{
+    color: #fcc200;
+  }
+
 
   .strong--aboutUsAcct {
     color: #0a0909;
@@ -208,7 +253,7 @@
   margin-bottom: 100px;  
 }
 
-.container--yellowAcct{
+.container--porqueAcct{
   margin-top: 120px;
 }
 
@@ -228,9 +273,10 @@
   margin-bottom: 60px;
 }
 
-.container--porqueacct {  
+.container--porqueAcct {  
   text-align: center;
   justify-content: center;
+  color:#0a0909
 }
 
 .container--porqueacct .paragraph {

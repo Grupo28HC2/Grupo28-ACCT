@@ -27,8 +27,8 @@
       "text": "Projetando o **futuro do comércio digital**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-2",
-      "blockClass": "yellowAcct"
+      "font": "t-heading-1",
+      "blockClass": "porqueAcct"
     }
   },
   "flex-layout.row#about-us": {
@@ -68,7 +68,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-2",
-      "blockClass": "yellowAcct"
+      "blockClass": "porqueAcct"
     }
   },
   "flex-layout.row#porqueacct": {
