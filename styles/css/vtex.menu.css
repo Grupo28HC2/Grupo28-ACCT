@@ -67,3 +67,7 @@
 .styledLinkContent--langs{
   font-size: 1rem;
 }
+
+.base {
+  color: #fcc200;
+}

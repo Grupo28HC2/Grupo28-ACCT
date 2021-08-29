@@ -19,9 +19,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---inicio/",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "INICIO",
         "text": "INÍCIO"
@@ -34,9 +35,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---acct",
+
         "noFollow": false,
         "tagTitle": "ACCT",
         "text": "ACCT"
@@ -88,6 +90,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
@@ -103,6 +106,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/acct---accessories/imprensa/",
@@ -118,6 +122,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/acct---accessories/carreiras/",
@@ -133,9 +138,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/oquefazemos---accessories/",
+
         "noFollow": false,
         "tagTitle": "O QUE FAZEMOS",
         "text": "O QUE FAZEMOS"
@@ -178,6 +184,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/servicos/",
@@ -186,7 +193,7 @@
         "text": "SERVIÇOS"
       },
       "iconProps": {
-        "id": "nav-caret--down", 
+        "id": "nav-caret--down",
         "size": 10,
         "viewBox": "0 0 16 16",
         "activeClassName": "base",
@@ -197,7 +204,7 @@
       "iconPosition":"right",
       "menuLinkDivLeft":"true"
 
-      
+
     },
     "blocks": [
       "vtex.menu@2.x:submenu#category-oquefazemos-servicos"
@@ -233,6 +240,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/servicos/quality",
@@ -248,6 +256,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/servicos/data",
@@ -264,6 +273,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/servicos/experience",
@@ -280,6 +290,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/servicos/tecnologia",
@@ -296,6 +307,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/categorias/",
@@ -349,6 +361,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/categoria/eletrodomesticos",
@@ -365,6 +378,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/categoria/bensdeconsumo",
@@ -381,6 +395,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/categoria/eletronicos",
@@ -397,6 +412,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/categoria/casaejardim",
@@ -413,6 +429,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/categoria/supermercados",
@@ -429,6 +446,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/categoria/moda",
@@ -445,6 +463,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/categoria/farmacia",
@@ -462,6 +481,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/oquefazemos---accessories/cases/",
@@ -471,16 +491,17 @@
       }
     }
   },
-  
+
   "menu-item#category-blog": {
     "props": {
       "id": "menu-item-category-home",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/blog",
         "noFollow": false,
         "tagTitle": "Blog",
         "text": "BLOG"
@@ -493,9 +514,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/partners",
         "noFollow": false,
         "tagTitle": "Parceiros",
         "text": "PARCEIROS"
@@ -508,9 +530,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/contact",
         "noFollow": false,
         "tagTitle": "Contato",
         "text": "CONTATO"
@@ -523,6 +546,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -574,6 +598,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/about-us",
@@ -589,6 +614,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -604,6 +630,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "activeClassName": "base",
       "itemProps": {
         "type": "internal",
         "href": "/contact-us",
