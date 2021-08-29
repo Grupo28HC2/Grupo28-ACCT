@@ -1,9 +1,14 @@
 @font-face {
-    font-family: 'Open Sans Condensed';
-    src: url(assets/fonts/OpenSansCondensed-Bold.ttf);
-    }
+  font-family: 'Open Sans Condensed';
+  src: url(assets/fonts/OpenSansCondensed-Bold.ttf);
+}
 
-    @font-face {
-        font-family: 'Open Sans';
-        src: url(assets/fonts/OpenSans-Regular.ttf);
-        } 
+@font-face {
+  font-family: 'Open Sans';
+  src: url(assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans Condensed Light";
+  src: url(assets/fonts/OSC/OpenSansCondensed-Light.ttf);
+}
