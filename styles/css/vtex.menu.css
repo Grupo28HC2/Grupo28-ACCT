@@ -1,21 +1,21 @@
 .styledLinkContent{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: inherit;
+    font-size: 15px;
+    font-weight: 500;
     cursor: pointer;
-    color:#3f3f40;
+    color:#000000;
     margin-left: -0.6rem;
     margin-right: -0.4rem;    
 }
 
 .styledLinkContainer{
-    color:#3f3f40;
+    color:#000000
 }
 
 .styledLinkIcon{
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-   color: #3f3f40;
+   color: #000000;
     margin-left: 10px;
 }
 
@@ -31,7 +31,6 @@
 
 .styledLinkIcon :hover,
 .styledLink :hover,
-<<<<<<< HEAD
 .styledLinkContainer :hover,
 .styledLinkContent :hover {
     color: #fcc200 !important;
@@ -40,13 +39,17 @@
 .styledLinkContent :focus,
 .menuItem :focus  {
     color: #fcc200;
-=======
+}
+
 .styledLinkContainer :hover{
-    color: #ffb100;
->>>>>>> cd712ab7640733fa0c098cb794fce0d038e3caec
+    color: #fcc200;
 }
 
 
 .styledLinkIcon  ::after{
     color: #fcc200;
+}
+
+.menuItem--langs{
+    width: 25px;
 }
