@@ -88,61 +88,12 @@
     line-height: 1.3em;
   }
 
-  .container--yellowAcct{
-    font-size: 3rem;
-    line-height: normal;
-    color: #0a0909;
-  }
-
-  .container--aboutUsAcct{
-    color: #0a0909;
-  }
-
-  .container--trustedAcct{    
-    color: #0a0909;
-  }
-
-  .container--trustedAcct{    
-    color: #0a0909;
-  }
-
-
-  .container--timedAcct{    
-    color: #0a0909;
-  }
-
-  .container--timedescAcct{    
-    color: #0a0909;
-  }
-
-  .paragraph--trustedAcct{
-    font-size: 32px;
-  }
-
-  .paragraph--timedAcct{
-    font-size: 32px;
-  }
-
-
   .strong--yellowAcct {
     color: #fcc200;
   }
-  .strong--trustedAcct{
-    color: #fcc200;
-  }  
-
-  .strong--timedescAcct{
+  .strong--trustedAcct {
     color: #fcc200;
   }
-
-  .strong--timedAcct{
-    color: #fcc200;
-  }
-
-  .strong--porqueAcct{
-    color: #fcc200;
-  }
-
 
   .strong--aboutUsAcct {
     color: #0a0909;
@@ -163,7 +114,6 @@
     text-align: justify;
     margin-top: 10px;
     margin-left: 120px;
-    
   }
 }
 
@@ -176,10 +126,10 @@
   border-right: 0px;
 }
 
-
-.heading--aboutUs-header {
+.heading--aboutUs-header,
+.heading--contact-header {
   color: #ffffff;
-  padding-left: 100px;
+  padding-left: 180px;
   font-family: "Open Sans Condensed";
   font-weight: 500;
 }
@@ -189,30 +139,33 @@
   margin: 30px;
 }
 
-.strong--aboutUs-header{
+.strong--aboutUs-header {
   color: #fcc200;
   display: inline-block;
   margin: 0 5px;
   animation: blink 1s ease infinite;
- }
+}
 
- @keyframes blink {
+@keyframes blink {
   0% {
-      opacity: 1;
+    opacity: 1;
   }
   100% {
-      opacity: 0
+    opacity: 0;
   }
 }
 
-
-.container--servicos-header {
+.container--servicos-header,
+.container--contact-header {
   background: url("https://acct.global/wp-content/uploads/2020/10/cover-services.jpg");
   padding: 65px 0;
   background-size: cover;
   background-position: center center;
   border-left: 0px;
   border-right: 0px;
+}
+.container--contact-header {
+  background: url("https://acct.global/wp-content/uploads/2020/10/cover-contact.jpg");
 }
 
 .heading--servicos-header {
@@ -227,7 +180,8 @@
   margin: 30px;
 }
 
-.strong--servicos-header{
+.strong--servicos-header,
+.strong--contact-header {
   color: #fcc200;
   display: inline-block;
   margin: 0 5px;
@@ -249,44 +203,38 @@
   margin: 1.5rem 0;
 }
 
-.slideChildrenContainer{
-  margin-bottom: 100px;  
+.slideChildrenContainer {
+  margin-bottom: 100px;
 }
 
-.container--porqueAcct{
+.container--yellowAcct {
   margin-top: 120px;
 }
 
-.container--trustedAcct{
+.container--trustedAcct {
   margin-top: 150px;
 }
 
-.container--timedAcct{
+.container--timedAcct {
   margin-top: 120px;
 }
 
-.container--timedAcct{
+.container--timedAcct {
   margin-bottom: -30px;
 }
 
-.container--timedescAcct{
+.container--timedescAcct {
   margin-bottom: 60px;
 }
 
-.container--porqueAcct {  
+.container--porqueacct {
   text-align: center;
   justify-content: center;
-  color:#0a0909
 }
 
 .container--porqueacct .paragraph {
   margin: 0;
 }
-
-.teste{
-  color:#0a0909;
-}
-
 
 @media screen and (max-width: 880px) {
   .container--h2-footer,
@@ -299,4 +247,3 @@
     margin-bottom: 32px;
   }
 }
-

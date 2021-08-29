@@ -1,85 +1,129 @@
 {
   "store.custom#contact-us": {
     "children": [
+      "rich-text#contact-header",
+      "flex-layout.row#contact-title",
       "flex-layout.row#contact-us"
     ]
   },
-
+  "rich-text#contact-header": {
+    "props": {
+      "text": "## CONTATO**_**",
+      "blockClass": "contact-header"
+    }
+  },
+  "flex-layout.row#contact-title": {
+    "props": {
+      "blockClass": "contact-form-title"
+    },
+    "children": ["rich-text#contact-title"]
+  },
+  "rich-text#contact-title": {
+    "props": {
+      "text": "#### Solicite nosso contato:"
+    }
+  },
   "flex-layout.row#contact-us": {
     "props": {
-      "blockClass": "contact"
+      "blockClass": "contact-form"
     },
-    "children": [
-      "flex-layout.col#contact-us"
-    ]
+    "children": ["flex-layout.col#contact-us", "flex-layout.col#filiais"]
   },
-
   "flex-layout.col#contact-us": {
-    "children": [
-      "rich-text#contact-us",
-      "form#contact-us"
-    ]
+    "children": ["contact-form"]
   },
-  "rich-text#contact-us": {
-    "props": {
-      "text": "## Contact Us"
-    }
+  "flex-layout.col#filiais": {
+    "children": ["flex-layout.row#filiais"]
   },
-
-  "form#contact-us": {
+  "flex-layout.row#filiais": {
     "props": {
-      "entity": "contact",
-      "schema": "site-contact"
+      "blockClass": "filais-group"
     },
-    "blocks": [
-      "form-success#contact-us"
+    "children": [
+      "flex-layout.col#sao-paulo",
+      "flex-layout.col#nova-york",
+      "flex-layout.col#barcelona"
+    ]
+  },
+  "flex-layout.col#sao-paulo": {
+    "children": [
+      "image#sao-paulo",
+      "rich-text#sao-paulo",
+      "rich-text#texto-sao-paulo"
     ],
+    "props": {
+      "blockClass": "contact-text"
+    }
+  },
+  "flex-layout.col#nova-york": {
     "children": [
-      "form-input.text#title",
-      "form-input.text#name",
-      "form-input.text#email",
-      "form-input.textarea#message",
-      "form-submit#contact"
-    ]
+      "image#nova-york",
+      "rich-text#nova-york",
+      "rich-text#texto-nova-york"
+    ],
+    "props": {
+      "blockClass": "contact-text"
+    }
   },
-
-  "form-success#contact-us": {
+  "flex-layout.col#barcelona": {
     "children": [
-      "rich-text#success-submit"
-    ]
-  },
-  "rich-text#success-submit": {
+      "image#barcelona",
+      "rich-text#barcelona",
+      "rich-text#texto-barcelona"
+    ],
     "props": {
-      "text": "Thanks for reaching out! We will come back shortly.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "blockClass": "contact-text"
     }
   },
-
-  "form-input.text#title": {
+  "image#sao-paulo": {
     "props": {
-      "pointer": "#/properties/title"
+      "src": "assets/images/contact-saopaulo.jpg",
+      "description": "São Paulo",
+      "blockClass": "filial-image"
     }
   },
-  "form-input.text#name": {
+  "rich-text#sao-paulo": {
     "props": {
-      "pointer": "#/properties/name"
+      "text": "### São Paulo"
     }
   },
-  "form-input.text#email": {
+  "rich-text#texto-sao-paulo": {
     "props": {
-      "pointer": "#/properties/email"
+      "text": "Al. Professor Lucas Nogueira Garcez, 1395 Atibaia/SP\n\nAv. das Nações Unidas, 11.857 - 8ºA - Brooklin São Paulo/SP"
     }
   },
-  "form-input.textarea#message": {
+  "image#nova-york": {
     "props": {
-      "pointer": "#/properties/message"
+      "src": "assets/images/contact-newyork.jpg",
+      "description": "Nova York",
+      "blockClass": "filial-image"
     }
   },
-
-  "form-submit#contact": {
+  "rich-text#nova-york": {
     "props": {
-      "label": "Submit"
+      "text": "### Nova York"
+    }
+  },
+  "rich-text#texto-nova-york": {
+    "props": {
+      "text": "12 East 49th Street NY 10017"
+    }
+  },
+  "image#barcelona": {
+    "props": {
+      "src": "assets/images/contact-barcelona.jpg",
+      "description": "Barcelona",
+      "blockClass": "filial-image"
+    }
+  },
+  "rich-text#barcelona": {
+    "props": {
+      "text": "### Barcelona"
+    }
+  },
+  "rich-text#texto-barcelona": {
+    "props": {
+      "text": "Carrer Provença, 339 - 08037"
     }
   }
 }
