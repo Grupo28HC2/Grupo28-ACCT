@@ -8,13 +8,13 @@
   transition: all 0.3s ease;
   display: block;
 }
-
-/* desktop/mobile main header padding and background transitions */
+/*
+/* desktop/mobile main header padding and background transitions
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
   transition: background 0.3s ease;
   will-change: padding, background;
-}
+} */
 
 /* main header desktop has a bigger padding when not stuck */
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {

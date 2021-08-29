@@ -21,14 +21,21 @@
 }
 
 .flexRowContent--menu-link {
+  font-family: "Open Sans" !important;
   background-color: #03044e;
   color: #fff;
 }
 
 .flexRowContent--main-header {
+  font-family: "Open Sans" !important;
   background-color: #ffffff;
   display:flex;
   flex-direction: row;
+  height: 90.4375px;
+}
+
+.logoheader {
+  height: 100%;
 }
 
 .flexRowContent--main-header-mobile {
