@@ -1,0 +1,43 @@
+.form_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 80%;
+}
+.group,
+.label,
+.input {
+  font-family: "Open Sans", sans-serif;
+  color: #3f3f40;
+}
+.label {
+  font-size: 1rem;
+}
+.input {
+  height: 40px !important;
+  margin-bottom: 10px !important;
+  color: #292929 !important;
+  border-style: inset !important;
+  box-sizing: inherit;
+  border-radius: 2px;
+}
+.form_submit {
+  background: transparent;
+  color: #5974c7;
+  border: 2px solid #5974c7;
+  border-radius: 4px;
+  padding: 8px 15px;
+}
+.form_submit:hover,
+.form_submit:active {
+  background: #5974c7;
+  color: #fff;
+  cursor: pointer;
+}
+.message {
+  color: #292929;
+  padding: 20px;
+  text-align: center;
+  background: #f2f2f2;
+  width: 100%;
+}

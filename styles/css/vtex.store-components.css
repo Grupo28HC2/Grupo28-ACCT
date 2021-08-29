@@ -1,5 +1,5 @@
-.imageElementLink{
-    text-align: center;
+.imageElementLink {
+  text-align: center;
 }
 
 .infoCardContainer--info-card-home {
@@ -60,7 +60,9 @@
 .skuSelectorContainer {
   margin: 1rem 0;
 }
-
+.imageElement--filial-image {
+  border-bottom: 8px solid #fcc200;
+}
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
@@ -128,16 +130,15 @@
   position: relative;
 }
 
-.infoCardHeadline--timedAcct{
+.infoCardHeadline--timedAcct {
   position: absolute;
   bottom: -35px;
   text-align: center;
   margin: 15px 0 0;
   font-size: 16px;
-
 }
 
-.infoCardSubhead--timedAcct{
+.infoCardSubhead--timedAcct {
   position: absolute;
   bottom: -60px;
   font-size: 13px !important;
@@ -145,46 +146,45 @@
   margin: 0;
 }
 
-
-.infoCardCallActionContainer--timedAcct{
-  display:none;
+.infoCardCallActionContainer--timedAcct {
+  display: none;
 }
 
 .imageElement--porqueAcct:hover {
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
-  transition: .6s;
+  transition: 0.6s;
   filter: opacity(0.7);
 }
 
 .imageElement--trustedAcct {
-	display: block;
-	max-width: 300px;
-	margin: 20px auto 40px auto;
-	transition: .6s;
+  display: block;
+  max-width: 300px;
+  margin: 20px auto 40px auto;
+  transition: 0.6s;
 
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	filter: gray; /* IE */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE */
 }
 
 .imageElement--trustedAcct:hover {
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
-	-webkit-filter: none;
-	filter: none;
+  -webkit-filter: none;
+  filter: none;
 }
 
 .imageElement--somoAcct {
-max-width:538px;
-max-height:368px;
-width: auto;
-height: auto;
+  max-width: 538px;
+  max-height: 368px;
+  width: auto;
+  height: auto;
 }
-@media screen and (max-width: 880px){
-  .imageElement--m-image-footer{
-      margin-bottom: 64px
+@media screen and (max-width: 880px) {
+  .imageElement--m-image-footer {
+    margin-bottom: 64px;
   }
 }
