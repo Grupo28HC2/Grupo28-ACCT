@@ -39,7 +39,7 @@
       "activeClassName": "base",
       "itemProps": {
         "type": "internal",
-        "href": "/leads",
+        "href": "/leadslist",
         "noFollow": false,
         "tagTitle": "leads",
         "text": "LEADS"
