@@ -88,6 +88,46 @@
     line-height: 1.3em;
   }
 
+  .container--yellowAcct {
+    font-size: 3rem;
+    line-height: normal;
+    color: #0a0909;
+  }
+
+  .container--aboutUsAcct {
+    color: #0a0909;
+  }
+
+  .container--trustedAcct {
+    color: #0a0909;
+  }
+
+  .container--trustedAcct {
+    color: #0a0909;
+  }
+
+  .container--timedAcct {
+    color: #0a0909;
+  }
+
+  .container--timedescAcct {
+    color: #0a0909;
+  }
+
+  .paragraph--trustedAcct {
+    font-size: 32px;
+  }
+
+  .paragraph--timedAcct {
+    font-size: 32px;
+  }
+  .strong--timedescAcct {
+    color: #fcc200;
+  }
+
+  .strong--timedAcct {
+    color: #fcc200;
+  }
   .strong--yellowAcct {
     color: #fcc200;
   }
