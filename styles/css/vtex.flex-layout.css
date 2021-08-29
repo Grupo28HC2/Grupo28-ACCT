@@ -33,10 +33,11 @@
   align-items: center;
   padding: 0.625rem 0.5rem;
   background-color: #ffffff;
+}
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
@@ -120,8 +121,7 @@
 }
 
 .flexCol--menulang{
-  width: 100px;
-  justify-content: start;
+  width: 85px;
 }
 
 .flexRow--porqueacct .flexCol .flexColChild--languages{
