@@ -1,3 +1,8 @@
 .container{
     background: #ffffff;
+    width: 100px;
 }
+
+.label :hover {
+    color: #fcc200 !important;
+} 

@@ -24,7 +24,8 @@
         "href": "/home---inicio/",
         "noFollow": false,
         "tagTitle": "INICIO",
-        "text": "INÍCIO"
+        "text": "INÍCIO",
+        "blockClass":"menuzao"
       }
     }
   },
