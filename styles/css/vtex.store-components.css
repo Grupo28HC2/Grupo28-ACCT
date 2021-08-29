@@ -183,8 +183,8 @@ max-height:368px;
 width: auto;
 height: auto;
 }
-@media screen and (max-width: 768px){
-    .imageElement--m-image-footer{
-        margin-bottom: 64px
-    }
+@media screen and (max-width: 880px){
+  .imageElement--m-image-footer{
+      margin-bottom: 64px
+  }
 }

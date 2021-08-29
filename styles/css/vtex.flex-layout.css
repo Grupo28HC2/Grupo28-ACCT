@@ -33,7 +33,8 @@
   align-items: center;
   padding: 0.625rem 0.5rem;
   background-color: #ffffff;
-
+  
+}
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 15px;
@@ -128,7 +129,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
   .flexRowContent--social-mobile{
     align-items: center;
     margin-bottom: 32px;
@@ -136,5 +137,12 @@
   .flexCol--footer_logo_col{
     margin-bottom: 64px;
   }
+  .flexRowContent--footer-row{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
+
+
 
