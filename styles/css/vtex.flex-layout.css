@@ -26,18 +26,17 @@
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
-}
+  background-color: #ffffff;
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
@@ -97,6 +96,8 @@
   padding-bottom: 1rem;
 }
 
+
+
 .flexRow--menu-row{
   background-color: #F8F8F8;
 }
@@ -118,7 +119,12 @@
   align-items: center;
 }
 
-.flexRow--porqueacct .flexCol {
+.flexCol--menulang{
+  width: 100px;
+  justify-content: start;
+}
+
+.flexRow--porqueacct .flexCol .flexColChild--languages{
   align-items: center;
 }
 
@@ -131,3 +137,4 @@
     margin-bottom: 64px;
   }
 }
+

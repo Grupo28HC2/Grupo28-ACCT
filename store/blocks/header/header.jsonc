@@ -16,43 +16,12 @@
     ]
   },
 
-  "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
-    "props": {
-      "fullWidth": true
-    }
-  },
-
-  "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
-    "props": {
-      "fullWidth": "true"
-    }
-  },
-  "notification.bar#home": {
-    "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
-    }
-  },
-  "flex-layout.row#3-desktop": {
-    "props": {
-      "blockClass": "menu-link",
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
-    ]
-  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
     }
   },
+
   "sticky-layout#4-desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -69,31 +38,27 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop", // ok 
+      "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "flex-layout.col#spacer",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "flex-layout.col#spacer",
+      "flex-layout.col#language",
       //"search-bar",
-      "locale-switcher#pt",
-      "locale-switcher#en",
-      "locale-switcher#pt",//,
-      //"login",
+      //"locale-switcher#pt",
+      //"locale-switcher#en",
+      //"locale-switcher#pt",//,
+      "login",
       "minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass":"logoheader"
     },
     "children": ["logo#desktop"]
-  },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
   },
   "logo#desktop": {
     "props": {
@@ -104,6 +69,22 @@
       "blockclass":"menuPrincipal"
     }
   },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass":"menuheader"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "flex-layout.col#language":{
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass":"menulang"
+    },
+    "children": ["vtex.menu@2.x:menu#language-menu"]
+  },
+
+
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
@@ -125,6 +106,14 @@
       "fullWidth": true
     }
   },
+  "flex-layout.col#logo-mobile1":{
+
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#mobile"]
+  },
+
   "drawer": {
     "children": ["menu#drawer"]
   },
@@ -147,32 +136,11 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
       "width": "70"
     }
-  },
-
-  "locale-switcher#pt":{
-    "props":{
-      "button":"EN",
-      "buttonText":"EN",
-      "blockClass":"ptbr"
-    }
-  },
-  "locale-switcher#en":{
-    "props":{
-    "button":"EN",
-    "buttonText":"EN",
-    "blockClass":"inen"
-    }
-  },
-  "locale-switcher#es":{
-    "props":{
-    "button":"ES",
-    "buttonText":"ES",
-    "blockClass":"eses"
-    }
-  }//,  Minicart configurdo no arquivo minicart
+  }
+//,  Minicart configurdo no arquivo minicart
  /* "minicart.v2":{
     "props":{
       "customPixelEventId":"add-cart",
