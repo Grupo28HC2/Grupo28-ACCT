@@ -11,7 +11,7 @@
       //"flex-layout.row#2-desktop",
       //"flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
-      
+
        	//sti-close--line icone do X pro menu  ICONE X PRO MENU
     ]
   },
@@ -40,10 +40,10 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "flex-layout.col#spacer",
+     // "flex-layout.col#spacer",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
-      "flex-layout.col#spacer",
+     // "flex-layout.col#spacer",
       "flex-layout.col#language",
       //"search-bar",
       //"locale-switcher#pt",
