@@ -167,4 +167,10 @@
     align-items: center;
     justify-content: center;
   }
+  .flexRowContent--main-header-mobile :hover{
+    filter: invert(1);
+  }
+
+
+
 }
