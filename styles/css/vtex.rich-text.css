@@ -94,6 +94,10 @@
     color: #0a0909;
   }
 
+  .container--porqueAcct {
+    color: #0a0909;
+  }
+
   .container--aboutUsAcct {
     color: #0a0909;
   }
@@ -121,6 +125,11 @@
   .paragraph--timedAcct {
     font-size: 32px;
   }
+
+  .strong--porqueAcct {
+    color: #fcc200;
+  }
+  
   .strong--timedescAcct {
     color: #fcc200;
   }
