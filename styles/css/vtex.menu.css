@@ -60,14 +60,18 @@
     color: #fcc200;
 }
 
-.menuItem--langs{
+.menuItem--langs, .menuItem--langs-pt{
     width: 20%;
 }
 
-.styledLinkContent--langs{
+.styledLinkContent--langs .styledLinkContent--langs-pt{
   font-size: 1rem;
 }
 
 .base {
+  color: #fcc200;
+}
+
+.styledLinkContent--langs-pt{
   color: #fcc200;
 }
