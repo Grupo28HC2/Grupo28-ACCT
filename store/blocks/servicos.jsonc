@@ -131,8 +131,9 @@
   },
   "add-to-cart-button#products": {
     "props": {
-      "text": "Ver Detalhes",
-      "onClickBehavior": "go-to-product-page"
+      "text": "Contratar",
+      "isOneClickBuy": true,
+      "customOneClickBuyLink": "/checkout"
     }
   }
 }

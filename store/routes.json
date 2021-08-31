@@ -11,5 +11,8 @@
 
   "store.custom#servicos": {
     "path": "/servicos"
+  },
+  "store.custom#about-us":{
+    "path": "/about-us"
   }
 }
