@@ -1,19 +1,26 @@
 ## Tema da loja ACCT
 **************************************************************************************************
-Pré-requisitos | Tecnologias   |    Projeto   |    Layout   |    Licença
-
-
+Link dos Repositórios | Pré-requisitos | Tecnologias | Como a comunicação com as APIs acontece | Projeto  | Layout | Licença | Contribuidores
 
 
 -------------------------------------------------------------------------------------------------
-## 🧩 Pré-requisitos
+##Link dos Repositórios:
+
+Store Front - https://github.com/Grupo28HC2/Grupo28-ACCT.git
+Leads List App -  https://github.com/Grupo28HC2/leadslistapp.git
+Admin Leads App - https://github.com/Grupo28HC2/Admin-Leads-App.git
+Formulário de Contato - https://github.com/Grupo28HC2/contact-form-block.git
+
+
+-------------------------------------------------------------------------------------------------
+##🧩 Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe), [Node.js](https://nodejs.org/en/), 
 [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable), [VTEX TOOLBELT](https://github.com/vtex/toolbelt). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/), criar um espaço de trabalho de desenvolvimento e vinculando seus arquivos locais à plataforma.
 -----------------------------------------------------------------------------------------------------
-## 🚀 Tecnologias
+##🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -34,28 +41,28 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ✅[DynamoDB](https://aws.amazon.com/pt/dynamodb/);
 
 -----------------------------------------------------------------------------------------------
-## 🔋 Como a comunicação com as APIs acontece:
+##🔋 Como a comunicação com as APIs acontece:
 
 ![image](https://user-images.githubusercontent.com/72118415/131257427-b4e1e7c9-2a04-439d-b0b7-a8e988c3f739.png)
 ![image](https://user-images.githubusercontent.com/72118415/131257725-d45ca962-1ede-4e70-a98e-398603e0a6dd.png)
 
 
 -----------------------------------------------------------------------------------------
-## 💻 Projeto
+##💻 Projeto
 
 Projeto é criar uma loja na plataforma VTEX IO com o clone da página da ACCT, com todas as funcionalidades que a 
 plataforma nos permite como tela inicial, produtos, lista de leads.  
 ----------------------------------------------------------------------------------------
-## 🔖 Layout
+##🔖 Layout
 
 Você pode visualizar o layout do projeto através desse link. É necessário ter conta no [VTEX IO](https://learn.vtex.com/docs/course-layout-blocks-step05tab-layout-lang-en)
 para acessá-lo.
 ----------------------------------------------------------------------------------------
-## 📝 Licença
+##📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 ----------------------------------------------------------------------------------------
-## ✨ Contribuidores 
+##✨ Contribuidores 
 
 Os agradecimentos vão para essas pessoas maravilhosas.
 
