@@ -1,16 +1,14 @@
 ## Tema da loja ACCT
-**************************************************************************************************
-Link dos Repositórios | Pré-requisitos | Tecnologias | Como a comunicação com as APIs acontece | Projeto  | Layout | Licença | Contribuidores
-
-
 -------------------------------------------------------------------------------------------------
 ##Link dos Repositórios:
 
-Store Front - https://github.com/Grupo28HC2/Grupo28-ACCT.git
-Leads List App -  https://github.com/Grupo28HC2/leadslistapp.git
-Admin Leads App - https://github.com/Grupo28HC2/Admin-Leads-App.git
-Formulário de Contato - https://github.com/Grupo28HC2/contact-form-block.git
+Store Front - https://github.com/Grupo28HC2/Grupo28-ACCT.git  
 
+Leads List App -  https://github.com/Grupo28HC2/leadslistapp.git  
+
+Admin Leads App - https://github.com/Grupo28HC2/Admin-Leads-App.git  
+
+Formulário de Contato - https://github.com/Grupo28HC2/contact-form-block.git  
 
 -------------------------------------------------------------------------------------------------
 ##🧩 Pré-requisitos
