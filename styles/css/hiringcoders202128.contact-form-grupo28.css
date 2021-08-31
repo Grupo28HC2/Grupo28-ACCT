@@ -3,12 +3,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 80%;
+  padding: 0;
 }
 .group,
 .label,
 .input {
   font-family: "Open Sans", sans-serif;
   color: #3f3f40;
+  width: 100%;
 }
 .label {
   font-size: 1rem;
@@ -41,3 +43,16 @@
   background: #f2f2f2;
   width: 100%;
 }
+
+@media screen and (max-width: 960px) {
+  .form_wrapper {
+    flex-wrap: nowrap;
+    flex-direction: column;    
+    width: 100%; 
+    margin: 0 auto;
+  }
+  .form_submit {
+    width: 100%;
+  }
+}
+
