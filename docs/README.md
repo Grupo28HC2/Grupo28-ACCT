@@ -1,6 +1,6 @@
 ## Tema da loja ACCT
 -------------------------------------------------------------------------------------------------
-##Link dos Repositórios:
+## Link dos Repositórios:
 
 Store Front - https://github.com/Grupo28HC2/Grupo28-ACCT.git  
 
